@@ -34,13 +34,6 @@
    margin-left: 15px;
 }
 
-.post_content video{ 
-   width: 70%;
-   min-width: 70%;
-}
-
-.post_content iframe{ 
-   width: 70%;
-   min-width: 70%;
-   min-height: 100%;
+.post_content video{
+   max-height: 40vh;
 }
