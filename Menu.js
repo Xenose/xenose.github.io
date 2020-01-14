@@ -15,7 +15,7 @@ function GenMenu()
 {
    var tag = document.getElementById("Menu");
    var ulTag = document.createElement("ul");
-
+   
    ulTag.appendChild(CreateLink("ホーム", "Index.html"));
    ulTag.appendChild(CreateLink("事業", "Projects.html"));
    ulTag.appendChild(CreateLink("ギットハブ", "https://github.com/Xenose?tab=repositories"));

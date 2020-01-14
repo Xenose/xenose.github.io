@@ -2,6 +2,7 @@ nav {
    position: fixed;
 
    background-color: #77777777;
+
    border: solid 1px;
    border-radius: 5px 0 0 5px;
 
@@ -41,7 +42,9 @@ nav a {
 
 nav a:hover {
    margin-left: 5px;
+
    color: red;
+
    list-style: none;
    text-decoration: none;
 }
@@ -54,6 +57,7 @@ nav a:visited {
 
 nav a:visited:hover {
    color: red;
+   
    list-style: none;
    text-decoration: none;
 }
