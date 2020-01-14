@@ -1,0 +1,44 @@
+
+
+.post_content
+{
+   margin-top: 5px;
+   margin-left: 6px;
+   margin-right: 6px;
+
+   background-color: #222;
+   border-radius: 5px 5px 0 0;
+}
+
+.post_content img{
+   margin-left: 15px;
+   margin-top: 5px;
+   max-width: 50%;
+}
+
+.post_content h2{
+   margin: 0;
+   padding-left: 15px;
+   background-color: #ee0000;
+   border-radius: 5px 5px 0 0;
+}
+
+.post_content div{
+   display: flex;
+   padding: 4px;
+}
+
+.post_content p{
+   margin-left: 15px;
+}
+
+.post_content video{ 
+   width: 70%;
+   min-width: 70%;
+}
+
+.post_content iframe{ 
+   width: 70%;
+   min-width: 70%;
+   min-height: 100%;
+}
