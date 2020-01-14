@@ -32,8 +32,10 @@
 
 .post_content p{
    margin-left: 15px;
+   word-wrap: break-word;
 }
 
 .post_content video{
-   max-height: 40vh;
+   min-width: 50vw;
+   max-width: 50vw;
 }
