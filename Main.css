@@ -6,7 +6,6 @@ body {
    margin: 0;
 }
 
-<<<<<<< HEAD
 #canvas, #text {
 	position: absolute;
 	display: block;
@@ -25,7 +24,7 @@ main {
    margin-left: 15%;
    margin-right: 10%;
 
-   padding-bottom: 5px;
+   padding-bottom: 15px;
 
    background: inherit;
    background-color: #77777777;
@@ -35,33 +34,28 @@ main {
 }
 
 footer {
-=======
-#title_bar {
-   color: white;
    font-size: 26px;
-   
-   margin-left: 15%;
-   margin-right: 0.5%;
-   margin-bottom: 2px;
-   
-   height: 100%;
-}
-
-main {
->>>>>>> b9899b80bc658415eea0e91aaecb52d19ecd0a6a
-   margin-left: 15%;
-   margin-right: 10%;
-
-<<<<<<< HEAD
-   padding-left: 5px;
-   
-=======
->>>>>>> b9899b80bc658415eea0e91aaecb52d19ecd0a6a
    background-color: #77777777;
 
    border: solid 1px;
    border-radius: 0 0 15px 15px;
 
+   margin-top: 1px;
+   margin-left: 15%;
+   margin-right: 10%;
+   margin-bottom: 15px;
+   
+   height: 100%;
+}
+
+main {
+   margin-left: 15%;
+   margin-right: 10%;
+
+   padding-left: 5px;
+   background-color: #77777777;
+
+   border: solid 1px;
 }
 
 h2 {

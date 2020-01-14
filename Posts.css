@@ -2,12 +2,14 @@
 
 .post_content
 {
+   color: white;
+
    margin-top: 5px;
    margin-left: 6px;
    margin-right: 6px;
 
    background-color: #222;
-   border-radius: 5px 5px 0 0;
+   border-radius: 15px 15px 0 0;
 }
 
 .post_content img{
@@ -20,7 +22,7 @@
    margin: 0;
    padding-left: 15px;
    background-color: #ee0000;
-   border-radius: 5px 5px 0 0;
+   border-radius: 15px 15px 0 0;
 }
 
 .post_content div{
