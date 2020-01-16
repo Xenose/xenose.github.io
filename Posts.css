@@ -38,6 +38,7 @@
 .post_content video{
    float: left;
    margin-right: 15px;
+   margin-bottom: 5px;
 
-   height: 30vh;
+   width: 50vw;
 }
