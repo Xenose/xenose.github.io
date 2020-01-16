@@ -1,8 +1,8 @@
 
-
 .post_content
 {
    color: white;
+   overflow: hidden;
 
    margin-top: 5px;
    margin-left: 6px;
@@ -20,22 +20,24 @@
 
 .post_content h2{
    margin: 0;
+   font-size: 2.5vw;
    padding-left: 15px;
    background-color: #ee0000;
    border-radius: 15px 15px 0 0;
 }
 
 .post_content div{
-   display: flex;
    padding: 4px;
 }
 
 .post_content p{
-   margin-left: 15px;
-   word-wrap: break-word;
+   font-size: 2.1vh;
+   padding-right: 15px;
 }
 
 .post_content video{
-   min-width: 50vw;
-   max-width: 50vw;
+   float: left;
+   margin-right: 15px;
+
+   height: 30vh;
 }

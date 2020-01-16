@@ -11,7 +11,7 @@ nav {
 }
 
 nav ul{
-   align: center;
+   align-self: center;
    list-style: none;
    text-decoration: none;
    
@@ -25,7 +25,7 @@ nav li {
    list-style: none;
    text-decoration: none;
 
-   font-size: 2.0vh;
+   font-size: 2.3vh;
    color: lightgrey;
 
    margin-left: 2%;
