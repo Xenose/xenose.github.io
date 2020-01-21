@@ -16,13 +16,13 @@ body {
 
 #title_bar {
    color: white;
-   font-size: 3vh;
+   font-size: 2vw;
    text-align: center;
 }
 
 main {
    margin-left: 20%;
-   margin-right: 10%;
+   margin-right: 5vw;
 
    padding-bottom: 15px;
 
@@ -40,10 +40,8 @@ footer {
    border: solid 1px;
    border-radius: 0 0 15px 15px;
 
-   margin-top: 1px;
-   margin-left: 15%;
-   margin-right: 10%;
-   margin-bottom: 15px;
+   margin-left: 20%;
+   margin-right: 5vw;
 
    padding-left: 15px;
    
