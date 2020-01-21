@@ -33,7 +33,7 @@
 
 .post_content p{
    font-size: 2.1vh;
-   padding-right: 15px;
+   padding-right: 5px;
 }
 
 .post_content video{
@@ -41,5 +41,5 @@
    margin-right: 15px;
    margin-bottom: 5px;
 
-   width: 50vw;
+   width: 52vw;
 }
