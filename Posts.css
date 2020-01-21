@@ -20,7 +20,8 @@
 
 .post_content h2{
    margin: 0;
-   font-size: 2.5vw;
+   margin-bottom: 5px;
+   font-size: 3.0vh;
    padding-left: 15px;
    background-color: #ee0000;
    border-radius: 15px 15px 0 0;
@@ -31,7 +32,7 @@
 }
 
 .post_content p{
-   font-size: 2.1vw;
+   font-size: 2.1vh;
    padding-right: 15px;
 }
 
