@@ -1,4 +1,6 @@
 nav {
+   left: 1.5vw;
+   right: 65%;
    position: fixed;
 
    background-color: #77777777;
@@ -19,6 +21,7 @@ nav ul{
 }
 
 nav li {
+   font-size: 4.5vw;
    color: lightgrey;
 
    margin-left: 2%;
@@ -29,17 +32,7 @@ nav li {
    list-style: none;
 }
 
-
-nav {
-   left: 1.5vw;
-   right: 65%;
-}
-
-nav li {
-   font-size: 4.5vw;
-}
-
-@media screen(any-hover) {
+@media not screen and (hover: none) {
    
    nav {
       left: 5.5vw;
