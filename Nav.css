@@ -31,15 +31,15 @@ nav li {
 
 
 nav {
-   left: 5.5vw;
+   left: 1.5vw;
    right: 65%;
 }
 
 nav li {
-   font-size: 3.5vw;
+   font-size: 4.5vw;
 }
 
-@media (min-width: 50em) {
+@media (min-width: 51em) {
    
    nav {
       left: 5.5vw;
