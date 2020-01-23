@@ -31,7 +31,7 @@ nav li {
 }
 
 @media screen and (orientation: landscape) {
-   font-size: 4.5vh;
+   font-size: 2.5vh;
 }
 
 @media not screen and (hover: none) {
