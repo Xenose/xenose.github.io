@@ -30,6 +30,10 @@ nav li {
    list-style: none;
 }
 
+@media not screen and (orientation: landscape) {
+   font-size: 4.5vh;
+}
+
 @media not screen and (hover: none) {
    
    nav {

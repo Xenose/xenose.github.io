@@ -32,13 +32,6 @@ main {
    border-width: 1px;
 }
 
-@media not screen and (hover: none) {
-   main {
-      margin-left:  20%;
-      margin-right: 5vw;
-   }
-}
-
 footer {
    font-size: 26px;
    background-color: #77777777;
@@ -54,12 +47,11 @@ footer {
    min-height: 50px;
 }
 
-main {
-
-   padding-left: 5px;
-   background-color: #77777777;
-
-   border: solid 1px;
+@media not screen and (hover: none) {
+   main {
+      margin-left:  20%;
+      margin-right: 5vw;
+   }
 }
 
 h2 {
