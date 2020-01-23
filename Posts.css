@@ -41,7 +41,7 @@
    width: 100%;
 }
 
-@media screen and (min-width: 51em) {
+@media screen(any-hover) {
 
    .post_content video
    {
