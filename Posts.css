@@ -41,7 +41,7 @@
    width: 100%;
 }
 
-@media (min-width: 51em) {
+@media screen and (min-width: 51em) {
 
    .post_content video
    {

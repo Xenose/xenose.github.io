@@ -39,7 +39,7 @@ nav li {
    font-size: 4.5vw;
 }
 
-@media (min-width: 51em) {
+@media screen and (min-width: 51em) {
    
    nav {
       left: 5.5vw;
