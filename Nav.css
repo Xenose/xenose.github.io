@@ -5,9 +5,6 @@ nav {
 
    border: solid 1px;
    border-radius: 15px 0 0 15px;
-
-   left: 0.5%;
-   right: 80%;
 }
 
 nav ul{
@@ -22,15 +19,38 @@ nav ul{
 }
 
 nav li {
-   list-style: none;
-   text-decoration: none;
-
-   font-size: 2.0vw;
    color: lightgrey;
 
    margin-left: 2%;
    margin-top: 15px;
    margin-bottom: 5px;
+   
+   text-decoration: none;
+   list-style: none;
+}
+
+@media only screen and (min-width: 50px) {
+
+   nav {
+      left: 5.5vw;
+      right: 65%;
+   }
+
+   nav li {
+      font-size: 3.5vw;
+   }
+}
+
+@media only screen and (min-width: 800px) {
+   
+   nav {
+      left: 5.5vw;
+      right: 80%;
+   }
+
+   nav li {
+      font-size: 1.5vw;
+   }
 }
 
 nav a {
@@ -44,7 +64,6 @@ nav a:hover {
    margin-left: 5px;
 
    color: red;
-
    list-style: none;
    text-decoration: none;
 }
@@ -57,7 +76,6 @@ nav a:visited {
 
 nav a:visited:hover {
    color: red;
-
    list-style: none;
    text-decoration: none;
 }
