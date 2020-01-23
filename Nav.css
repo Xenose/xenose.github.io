@@ -29,19 +29,17 @@ nav li {
    list-style: none;
 }
 
-@media only screen and (min-width: 50px) {
 
-   nav {
-      left: 5.5vw;
-      right: 65%;
-   }
-
-   nav li {
-      font-size: 3.5vw;
-   }
+nav {
+   left: 5.5vw;
+   right: 65%;
 }
 
-@media only screen and (min-width: 800px) {
+nav li {
+   font-size: 3.5vw;
+}
+
+@media only screen and (min-width: 40em) {
    
    nav {
       left: 5.5vw;
