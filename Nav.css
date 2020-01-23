@@ -2,6 +2,7 @@ nav {
    left: 1.5vw;
    right: 65%;
    position: fixed;
+   max-height: 100%;
 
    background-color: #77777777;
 
