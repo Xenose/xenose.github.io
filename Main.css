@@ -25,7 +25,7 @@ main {
    margin-right: 1vw;
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 801px) {
    main {
       margin-left:  20%;
       margin-right: 5vw;
