@@ -1,4 +1,4 @@
-!DOCTYPE HTML>
+<!DOCTYPE HTML>
 
 <html>
    <head>
@@ -12,30 +12,18 @@
       <script src="Posts.js"></script>
    </head>
 
-   <body onload="GenMenu(); GenratePosts('test')">
+   <body onload="GenMenu();">
 
-      <div id="title_bar">
-            <h1>Projects</h1>
-      </div>
+      <div id="title_bar"><h1>Projects</h1></div>
 
       <nav id="Menu"></nav>
-      
-      <main>
-         
-         <!-- pos 1 -->
-         <article class="post_content">
-            <h2>[MineCraft Java] FoundryCraft</h2>
+      <main id="main_content"></main>
 
-            <div>
-               <video controls preload="metadata">
-                  <source src="videos/FoundryCraft.mp4" type="video/webm">
-               </video>
-               <p>this project was mayed in a day with c++ and sfml, 
-               demonstating the<br>spreated axums threum</p>
-            </div>
-         </article>
-
-      </main>
+      <script>
+         CreatePost("foundry_craft", "[MineCraft Java] FoundryCraft",
+         "this project was mayed in a day with c++ and sfml,\
+            demonstating the<br>spreated axums threum");
+      </script>
 
       <footer>
          <p> All the materials was create by sebastian johansson @2020. 
