@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+
+<html>
+   <head>
+      <meta charset="UTF-8"> 
+      <title>Main Page</title>
+      <link rel="stylesheet" type="text/css" href="Main.css">
+      <link rel="stylesheet" type="text/css" href="Nav.css">
+
+      <script src="Menu.js"></script>
+      <script src="Background.js"></script>
+   </head>
+
+   <body onload="GenMenu(); LoadBackground();">
+      <div id="title_bar">
+         <h1>My Page</h1>
+      </div>
+
+      <nav id="Menu"></nav>
+
+      <canvas id="background_canvas" 
+              style="background-color: white; margin-left: 5%;" 
+              width="600" 
+              height="500">
+      </canvas>
+      <main>
+         <h1>test test</h1>
+         <p>hello world</p>
+      </main>
+   
+   </body>
+</html>
