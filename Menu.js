@@ -4,7 +4,7 @@ function CreateLink(name, address)
    var liTag = document.createElement("li");
    var aTag = document.createElement("a");
 
-   aTag.innerHTML = "&#10148 " + name;
+   aTag.innerHTML = "&#10148; " + name;
    aTag.href = address;
 
    liTag.appendChild(aTag);
