@@ -7,6 +7,8 @@ nav ul{
    margin: 0;
    padding: 0;
    display: flex;
+   flex-flow: wrap-reverse;
+
    list-style: none;
    text-decoration: none;
 }
@@ -14,11 +16,11 @@ nav ul{
 nav li {
    border-radius: 15px 15px 0 0;
    background-color: #EE0000aa;
-   font-size: 2.7vw;
+   font-size: 3.7vw;
    color: lightgrey;
 
-   padding: 3px 3px 0 3px;
-   margin: 0 7px 0 1px;
+   padding: 3px 3px 3px;
+   margin: 4px 7px 0 1px;
    
    text-decoration: none;
    list-style: none;
