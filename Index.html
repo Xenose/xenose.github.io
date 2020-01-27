@@ -8,21 +8,21 @@
       <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap"
          rel="stylesheet"> 
       
-      <link rel="stylesheet" type="text/css" href="Main.css">
-      <link rel="stylesheet" type="text/css" href="Nav.css">
+      <link rel="stylesheet" type="text/css" href="HomeMain.css">
+      <link rel="stylesheet" type="text/css" href="HomeNav.css">
 
       <script src="Menu.js"></script>
       <script src="Background.js"></script>
    </head>
 
-   <body onload="GenMenu(); LoadBackground();">
+   <body onload="GenMenu(false); LoadBackground();">
 
       <canvas id="background_canvas" 
               style="z-index: -1; top: 0; position: fixed;">
       </canvas>
 
       <div id="title_bar">
-         <h1>My Page</h1>
+         <h1>Home</h1>
       </div>
 
       <nav id="Menu"></nav>
