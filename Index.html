@@ -1,21 +1,31 @@
 <!DOCTYPE HTML>
 
-<html>
+<html Lang="ja">
    <head>
-      <title>Main Page</title>
+      <meta charset="UTF-8"> 
+      <title>Main Page</title> 
+      
+      <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap"
+         rel="stylesheet"> 
+      
       <link rel="stylesheet" type="text/css" href="Main.css">
       <link rel="stylesheet" type="text/css" href="Nav.css">
 
       <script src="Menu.js"></script>
+      <script src="Background.js"></script>
    </head>
 
-   <body onload="GenMenu()">
+   <body onload="GenMenu(); LoadBackground();">
+
+      <canvas id="background_canvas" 
+              style="z-index: -1; top: 0; position: fixed;">
+      </canvas>
+
       <div id="title_bar">
          <h1>My Page</h1>
       </div>
 
       <nav id="Menu"></nav>
-      
       <main>
          <h1>test test</h1>
          <p>hello world</p>

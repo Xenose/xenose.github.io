@@ -1,17 +1,12 @@
 
+* {
+   font-family: 'Sawarabi Mincho', sans-serif;
+}
 
 body {
    background-color: black;
    padding: 0;
    margin: 0;
-}
-
-#canvas, #text {
-	position: absolute;
-	display: block;
-	top: 0;
-	left: 0;
-	z-index: -1;
 }
 
 #title_bar {
