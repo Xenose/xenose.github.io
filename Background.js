@@ -14,7 +14,7 @@ function Block(x, y, vx, vy)
    {
       c.fillRect(x += vx, y += vy, 20,20);
 
-      if (y >= canvas.height)
+      if (y >= canvas.height - 20)
       {
          vy = -Math.random() * 5;
       }
@@ -23,7 +23,7 @@ function Block(x, y, vx, vy)
          vy = Math.random() * 5;
       }
 
-      if (x >= canvas.width)
+      if (x >= canvas.width - 20)
       {
          vx = -Math.random() * 5;
       }
@@ -44,6 +44,11 @@ var testBlock2 = new Block(
    Math.random() * window.innerHeight,
    10,10);
 
+var testBlock3 = new Block(
+   Math.random() * window.innerWidth,
+   Math.random() * window.innerHeight,
+   10,10);
+
 function UpdateBackground()
 {
    requestAnimationFrame(UpdateBackground);
@@ -52,7 +57,7 @@ function UpdateBackground()
 
    testBlock.Draw();
    testBlock2.Draw();
-
+   testBlock3.Draw();
 }
 
 function LoadBackground()

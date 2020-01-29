@@ -1,5 +1,6 @@
 nav {
-   margin-left: 5%;
+   margin-top: 45px;
+   margin-left: 15vw;
    margin-right: 5%;
 }
 
@@ -16,7 +17,7 @@ nav ul{
 nav li {
    border-radius: 15px 15px 0 0;
    background-color: #EE0000aa;
-   font-size: 3.7vw;
+   font-size: 1.7vw;
    color: lightgrey;
 
    padding: 3px 3px 3px;
