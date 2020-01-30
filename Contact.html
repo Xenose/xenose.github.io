@@ -10,20 +10,25 @@
 
       <link rel="stylesheet" type="text/css" href="Main.css">
       <link rel="stylesheet" type="text/css" href="Nav.css">   
-      <link rel="stylesheet" type="text/css" href="Posts.css">
+      <link rel="stylesheet" type="text/css" href="Contact.css">   
 
       <script src="Menu.js"></script>
+      <script src="Background.js"></script>
    </head>
 
-   <body onload="GenMenu(true)">
+   <body onload="GenMenu(true); LoadBackground();">
 
+      <canvas id="background_canvas" 
+              style="z-index: -1; top: 0; position: fixed;">
+      </canvas>
+      
       <div id="title_bar"><h1>Contact</h1></div>
       <nav id="Menu"></nav>
 
       <main id="main_content">
-         <p style="margin-left: 15px;">E-Mail</p>
-         <input type="text" style="width:40%; margin-left: 15px; margin-bottom: 10px;" name="email" value="you@Email.com">
-         <textarea required rows=10 style="width:80%; margin-left: 20px;"></textarea>
+         <p>E-Mail</p>
+         <input type="text" name="email" value="you@Email.com">
+         <textarea required rows=10></textarea>
          <input type="submit" value="Send">
       </main>
       

@@ -37,17 +37,17 @@ function Block(x, y, vx, vy)
 var testBlock = new Block(
    Math.random() * window.innerWidth,
    Math.random() * window.innerHeight,
-   10,10);
+   Math.random() * 10 - 5, Math.random() * 10 - 5);
 
 var testBlock2 = new Block(
    Math.random() * window.innerWidth,
    Math.random() * window.innerHeight,
-   10,10);
+   Math.random() * 10 - 5, Math.random() * 10 - 5);
 
 var testBlock3 = new Block(
    Math.random() * window.innerWidth,
    Math.random() * window.innerHeight,
-   10,10);
+   Math.random() * 10 - 5, Math.random() * 10 - 5);
 
 function UpdateBackground()
 {

@@ -12,9 +12,14 @@
       <link rel="stylesheet" type="text/css" href="Nav.css">
 
       <script src="Menu.js"></script>
+      <script src="Background.js"></script>
    </head>
 
-   <body onload="GenMenu(true)">
+   <body onload="GenMenu(true); LoadBackground();">
+
+      <canvas id="background_canvas" 
+              style="z-index: -1; top: 0; position: fixed;">
+      </canvas>
 
       <div id="title_bar">
          <h1>About Me</h1>
