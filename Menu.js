@@ -23,6 +23,7 @@ function GenMenu(deco)
    ulTag.appendChild(CreateLink("ホーム", "Index.html", deco));
    ulTag.appendChild(CreateLink("事業", "Projects.html", deco));
    ulTag.appendChild(CreateLink("モッド", "Mods.html", deco));
+   ulTag.appendChild(CreateLink("3D Models", "Models3D.html", deco));
    ulTag.appendChild(CreateLink("ギットハブ", 
       "https://github.com/Xenose?tab=repositories", deco));
    ulTag.appendChild(CreateLink("僕に就いて", "About.html", deco));
