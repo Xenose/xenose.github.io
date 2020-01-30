@@ -1,28 +1,33 @@
 
-function CreateLink(name, address)
+function CreateLink(name, address, deco)
 {
    var liTag = document.createElement("li");
    var aTag = document.createElement("a");
 
-   aTag.innerHTML = "&#10148 " + name;
+   if (deco)
+      aTag.innerHTML = "&#10148; " + name;
+   else
+      aTag.innerHTML = name;
+   
    aTag.href = address;
 
    liTag.appendChild(aTag);
    return liTag;
 }
 
-function GenMenu()
+function GenMenu(deco)
 {
    var tag = document.getElementById("Menu");
    var ulTag = document.createElement("ul");
    
-   ulTag.appendChild(CreateLink("ホーム", "Index.html"));
-   ulTag.appendChild(CreateLink("事業", "Projects.html"));
-   ulTag.appendChild(CreateLink("モッド", "Mods.html"));
-   ulTag.appendChild(CreateLink("ギットハブ", "https://github.com/Xenose?tab=repositories"));
-   ulTag.appendChild(CreateLink("僕に就いて", "About.html"));
-   ulTag.appendChild(CreateLink("連絡", "Error.html"));
-   ulTag.appendChild(CreateLink("About", "Error.html"));
+   ulTag.appendChild(CreateLink("ホーム", "Index.html", deco));
+   ulTag.appendChild(CreateLink("事業", "Projects.html", deco));
+   ulTag.appendChild(CreateLink("モッド", "Mods.html", deco));
+   ulTag.appendChild(CreateLink("ギットハブ", 
+      "https://github.com/Xenose?tab=repositories", deco));
+   ulTag.appendChild(CreateLink("僕に就いて", "About.html", deco));
+   ulTag.appendChild(CreateLink("連絡", "Contact.html", deco));
+   ulTag.appendChild(CreateLink("About", "Error.html", deco));
 
    tag.appendChild(ulTag);
 }

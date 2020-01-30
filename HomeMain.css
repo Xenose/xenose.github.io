@@ -11,13 +11,13 @@ body {
 
 #title_bar {
    color: white;
-   font-size: 2vw;
+   font-size: 1vw;
    text-align: center;
 }
 
 main {
-   margin-left: 35%;
-   margin-right: 1vw;
+   margin-left: 15vw;
+   margin-right: 15vw;
    padding-bottom: 15px;
 
    background: inherit;
@@ -34,19 +34,12 @@ footer {
    border: solid 1px;
    border-radius: 0 0 15px 15px;
 
-   margin-left: 20%;
-   margin-right: 5vw;
+   margin-left: 15vw;
+   margin-right: 15vw;
 
    padding-left: 15px;
    
    min-height: 50px;
-}
-
-@media not screen and (hover: none) {
-   main {
-      margin-left:  20%;
-      margin-right: 5vw;
-   }
 }
 
 h2 {

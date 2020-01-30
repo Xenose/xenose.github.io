@@ -1,288 +1,58 @@
 <!DOCTYPE HTML>
 
-<html>
+<html Lang="ja">
    <head>
-      
+      <meta charset="UTF-8"> 
       <title>Projects</title>
+
+      <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap"
+         rel="stylesheet"> 
+
       <link rel="stylesheet" type="text/css" href="Main.css">
       <link rel="stylesheet" type="text/css" href="Nav.css">   
       <link rel="stylesheet" type="text/css" href="Posts.css">
 
       <script src="Menu.js"></script>
       <script src="Posts.js"></script>
+      <script src="Background.js"></script>
    </head>
 
-   <body onload="GenMenu()">
+   <body onload="GenMenu(true); LoadBackground()">
 
-      <div id="title_bar">
-            <h1>Projects</h1>
-      </div>
+      <canvas id="background_canvas" 
+              style="z-index: -1; top: 0; position: fixed;">
+      </canvas>
 
+      <div id="title_bar"><h1>Projects</h1></div>
       <nav id="Menu"></nav>
-      
-      <main>
+
+      <main id="main_content"></main>
+
+      <script>
+         CreatePost(
+            "astroid_wars", 
+            "Astroid Wars アストロイ・ワォー",
+            "<b>Supports・プラットホーム</b><br>&#10148;Windows・ウィンドウズ<br>\
+            &#10148;Linux ・リナックス<br><br>\
+            このアステロイド・ワォーは小惑星を誤魔化すのゲームです。\
+            コードの言語がC/C＋＋とSFMLライブライー。");
          
-         <!-- pos 1 -->
-         <article class="post_content">
-            <h2>Astroid Wars "アストロイド"</h2>
-
-            <div>
-               <video poster="img/astroid_wars.png" controls preload="none">
-                  <source src="videos/astroid_wars.mp4" type="video/webm">
-               </video>
-               <p>
-                  <b>Supports ・ プラットホーム </b><br>                  
-                  &#10148Windows ・ ウィンドウズ<br>
-                  &#10148Linux ・ リナックス<br><br>
-                  このアステロイドワォーは小惑星を誤魔化すのゲームです。コードの言語がC/C＋＋とSFMLライブライー。</p>
-            </div>
-         </article>
-
-         <!-- pos 2 -->
-         <article class="post_content">
-            <h2>OpenGL 3D demo "アストロイド"</h2>
-
-            <div>
-               <video poster="img/opengl_test.png" controls preload="none">
-                  <source  src="videos/OpenGLTest.mp4" type="video/webm">
-               </video>
-               <p>
-                  <b>Supports</b><br>
-                  &#10148Windows<br>
-                  &#10148Linux<br><br>
-
-                  this project was mayed in a day with c++ and sfml, 
-               demonstating the<br>spreated axums threum</p>
-            </div>
-         </article>
-
-         <!-- pos 2 -->
-         <!--<article class="post_content">
-            <h2>OpenGL 3D box rendering</h2>
-
-            <div>
-               <video controls preload="none">
-                  <source src="videos/astroid_wars.mp4" type="video/webm">
-               </video>
-               <p>
-                  <b>Supports</b><br>
-                  &#10148Windows<br><br>
-
-                  this project was mayed in a day with c++ and sfml, 
-               demonstating the<br>spreated axums threum</p>
-            </div>
-            </article> -->
-
-         <!-- pos 3 -->
-         <article class="post_content">
-            <h2>Zombie Mascar</h2>
-
-            <div>
-               <video controls preload="none">
-                  <source src="videos/zombie_masacre.mp4" type="video/mp4">
-               </video>
-               <p>
-                  <b>Supported</b><br>
-                  &#10148Windows<br>
-                  &#10148Android<br><br>
-
-                  Zombie Masacre is made in unity3d with the help of
-               my class mates back in 2015, Me personaly implemented the menu<br> and the leveling system</p>
-            </div>
-         </article>
-
-         <!-- pos 3 -->
-         <!-- <article class="post_content">
-            <h2>Bomb Game</h2>
-
-            <div>
-               <video controls preload="none">
-                  <source src="videos/zombie_masacre.mp4" type="video/mp4">
-               </video>
-               <p>
-                  <b>Supports</b><br>
-                  &#10148Windows<br><br>
-
-                  Zombie Masacre is made in unity3d with the help of
-               my class mates back in 2015, Me personaly implemented the menu<br> and the leveling system</p>
-            </div>
-         </article> -->
-
-         <!-- pos 4 -->
-         <article class="post_content">
-            <h2>Change Runner 3D</h2>
-
-            <div>
-               <video controls preload="none">
-                  <source src="videos/changer_runner_3D.mp4" type="video/mp4">
-               </video>
-               <p>
-                  <b>Supports</b><br>
-                  &#10148Windows<br>
-                  &#10148Linux<br><br>
-
-                  Zombie Masacre is made in unity3d with the help of
-               my class mates back in 2015, Me personaly implemented the menu<br> and the leveling systemZombie Masacre is made in unity3d with the help of
-               my class mates back in 2015, Me personaly implemented the menu<br> and the leveling system</p>
-            </div>
-         </article>
-
-         <!-- 
-         <article class="post_content">
-            <h2>Voxel World</h2>
-
-            <div>
-               <video controls preload="none">
-                  <source src="videos/zombie_masacre.mp4" type="video/mp4">
-               </video>
-               <p>
-                  <b>Supports</b><br>
-                  &#10148Windows<br><br>
-
-                  Zombie Masacre is made in unity3d with the help of
-               my class mates back in 2015, Me personaly implemented the menu<br> and the leveling system</p>
-            </div>
-         </article>
-
-         <article class="post_content">
-            <h2>RTS control test</h2>
-
-            <div>
-               <video controls preload="none">
-                  <source src="videos/zombie_masacre.mp4" type="video/mp4">
-               </video>
-               <p>
-                  <b>Supports</b><br>
-                  &#10148Android<br><br>
-
-                  Zombie Masacre is made in unity3d with the help of
-               my class mates back in 2015, Me personaly implemented the menu<br> and the leveling system</p>
-            </div>
-         </article>
-
-         <article class="post_content">
-            <h2>Change Runner 2D</h2>
-
-            <div>
-               <video controls preload="none">
-                  <source src="videos/zombie_masacre.mp4" type="video/mp4">
-               </video>
-               <p>
-                  <b>Supports</b><br>
-                  &#10148Windows<br><br>
-
-                  Zombie Masacre is made in unity3d with the help of
-               my class mates back in 2015, Me personaly implemented the menu<br> and the leveling system</p>
-            </div>
-         </article>
-
-         <article class="post_content">
-            <h2>High school second year webpage</h2>
-
-            <div>
-               <video controls preload="none">
-                  <source src="videos/zombie_masacre.mp4" type="video/mp4">
-               </video>
-               <p>
-                  <b>Supports</b><br>
-                  &#10148Web<br><br>
-
-                  Zombie Masacre is made in unity3d with the help of
-               my class mates back in 2015, Me personaly implemented the menu<br> and the leveling system</p>
-            </div>
-         </article>
-
-         <article class="post_content">
-            <h2>Mappy</h2>
-
-            <div>
-               <video controls preload="none">
-                  <source src="videos/zombie_masacre.mp4" type="video/mp4">
-               </video>
-               <p>
-                  <b>Supports</b><br>
-                  &#10148Windows<br>
-                  &#10148Linux<br><br>
-
-                  Zombie Masacre is made in unity3d with the help of
-               my class mates back in 2015, Me personaly implemented the menu<br> and the leveling system</p>
-            </div>
-         </article> -->
-
-         <!-- pos 7 -->
-         <article class="post_content">
-            <h2>Coin Flipper</h2>
-
-            <div>
-               <video controls preload="none">
-                  <source src="videos/zombie_masacre.mp4" type="video/mp4">
-               </video>
-               <p>
-                  <b>Supports</b><br>
-                  &#10148Linux<br>
-                  &#10148Web<br><br>
-                  <a href="https://xenose.itch.io/school-project-coin-flipper">
-                  &#10148Play Online!</a>
-                  <br><br>
-
-                  Zombie Masacre is made in unity3d with the help of
-               my class mates back in 2015, Me personaly implemented the menu<br> and the leveling system</p>
-            </div>
-         </article>
-
-         <!-- 
-         <article class="post_content">
-            <h2>Mario clone</h2>
-
-            <div>
-               <video controls preload="none">
-                  <source src="videos/zombie_masacre.mp4" type="video/mp4">
-               </video>
-               <p>
-                  <b>Supports</b><br>
-                  &#10148Windows<br><br>
-
-                  Zombie Masacre is made in unity3d with the help of
-               my class mates back in 2015, Me personaly implemented the menu<br> and the leveling system</p>
-            </div>
-         </article>
-
-         
-         <article class="post_content">
-            <h2>Pacman Clone</h2>
-
-            <div>
-               <video controls preload="none">
-                  <source src="videos/zombie_masacre.mp4" type="video/mp4">
-               </video>
-               <p>
-                  <b>Supports</b><br>
-                  &#10148Windows<br><br>
-
-                  Zombie Masacre is made in unity3d with the help of
-               my class mates back in 2015, Me personaly implemented the menu<br> and the leveling system</p>
-            </div>
-         </article> -->
-
-         <!-- pos 10 -->
-         <article class="post_content">
-            <h2>Auto cleanner</h2>
-
-            <div>
-               <video controls preload="none">
-                  <source src="videos/AutoCleaner.mp4" type="video/mp4">
-               </video>
-               <p>
-                  <b>Supports</b><br>
-                  &#10148Windows<br><br>
-
-                  Zombie Masacre is made in unity3d with the help of
-               my class mates back in 2015, Me personaly implemented the menu<br> and the leveling system</p>
-            </div>
-         </article>
-
-
-      </main>
+         CreatePost("opengl_3D_demo", "OpenGL 3D Demo", 
+            "");
+         CreatePost("opengl_3D_box_demo", "OpenGL 3D box rendering", "");
+         CreatePost("zombie_masacre", "Zombie Masacre", "");
+         CreatePost("bomb_game", "Bomb Game", "");
+         CreatePost("change_runner_3D", "Change Runner 3D", "");
+         CreatePost("voxel_world", "Voxel World", "");
+         CreatePost("rts_control", "Rts control test", "");;
+         CreatePost("change_runner_2D", "Change Runner 2D", "");
+         CreatePost("webpage_highschool", "Old Highschool webpage", "");
+         CreatePost("mappy", "Mappy", "");
+         CreatePost("coin_flipper", "Coin Flipper", "");
+         CreatePost("mario_clone", "Mario Clone", "");
+         CreatePost("pacman_clone", "Pacman Clone", "");
+         CreatePost("auto_cleaner", "Auto Cleaneer", "");
+      </script>
 
       <footer>
          <p> All the materials was create by sebastian johansson @2020. 
