@@ -1,0 +1,55 @@
+
+.post_content
+{
+   color: white;
+   overflow: hidden;
+
+   margin-top: 5px;
+   margin-left: 6px;
+   margin-right: 6px;
+
+   background-color: rgba(42, 42, 42, 0.8);
+   border-radius: 15px 15px 0 0;
+}
+
+.post_content img{
+   margin-left: 15px;
+   margin-top: 5px;
+   max-width: 50%;
+}
+
+.post_content h2{
+   margin: 0;
+   margin-bottom: 5px;
+   font-size: 3.0vh;
+   padding-left: 15px;
+   background-color: #aa0000;
+   border-radius: 15px 15px 0 0;
+}
+
+.post_content div{
+   padding: 4px;
+}
+
+.post_content p{
+   font-size: 2.1vh;
+   padding-right: 5px;
+}
+
+.post_content video
+{
+   width: 100%;
+}
+
+@media not screen and (hover: none) {
+
+   .post_content video
+   {
+      width: 60%;
+   }
+}
+.post_content video{
+   float: left;
+   margin-right: 15px;
+   margin-bottom: 5px;
+}
