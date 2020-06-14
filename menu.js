@@ -1,0 +1,74 @@
+
+var pageIndex = 0;
+
+var pageTabs =
+   [
+      'Home',
+      'Projects',
+      'Contact',
+      'Github'
+   ]
+
+/// using the feather icon pack
+/// under the MIT License 2020-06-14
+
+var tabIcons = 
+   [
+      'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/home.svg',
+
+      'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/folder-minus.svg',
+
+      'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/mail.svg',
+
+      'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg'
+   ]
+
+function CreateIcon(name, imgSrc, index)
+{
+   var li = document.createElement("li");
+   var img = document.createElement("img");
+   var p = document.createElement("p");
+
+   img.src = imgSrc;
+   img.setAttribute("onclick", "SetTab(" + index + ")");
+   p.innerHTML = "~" + name;
+
+   li.appendChild(img);
+   li.appendChild(p);
+   return li;
+}
+
+function GenrateMenu()
+{
+   console.log("test");
+   // getting the menu tag from the document 
+   var tag = document.getElementById("mainMenu");
+   // adding a container for all the icons in the manu
+   var ul  = document.createElement("ul");
+
+   for (var i = 0; i < pageTabs.length; i++)
+   {
+      ul.appendChild(CreateIcon(pageTabs[i], tabIcons[i], i));
+   }
+
+   // adding the container element to the menu object
+   tag.appendChild(ul);
+
+   for (var i = 1; i < pageTabs.length; i++)
+   {
+      var element = document.getElementById(pageTabs[i]);
+      element.style.display = "none";
+   }
+}
+
+function SetTab(index)
+{
+   var element = document.getElementById(pageTabs[index]);
+   var lastElement = document.getElementById(pageTabs[pageIndex]);
+
+   lastElement.style.display = "none";
+   element.style.display = "block";
+
+   pageIndex = index;
+}
+

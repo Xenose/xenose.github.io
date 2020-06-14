@@ -1,0 +1,51 @@
+
+#mainMenu
+{
+   padding: 0;
+
+   width: 7vh;
+   height: 100%;
+   position: fixed;
+   top: 0;
+
+   background-color: darkblue;
+}
+
+#mainMenu ul
+{
+   margin: 0;
+   padding: 0;
+}
+
+#mainMenu li
+{
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+
+#mainMenu img 
+{
+   width: 100%;
+}
+
+#mainMenu p
+{
+   margin: 0;
+   padding: 15px;
+   left: 130%;
+   bottom: 5px;
+   color: white;
+   border: solid 2px black;
+   border-radius: 15px;
+   background-color: darkblue;
+   position: absolute;
+   display: none;
+}
+
+#mainMenu li:hover p
+{
+   display: block;
+}
+
