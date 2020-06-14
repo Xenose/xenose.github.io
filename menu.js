@@ -31,6 +31,7 @@ function CreateIcon(name, imgSrc, index)
 
    img.src = imgSrc;
    img.setAttribute("onclick", "SetTab(" + index + ")");
+   img.id = name + "Img" + "Tab";
    p.innerHTML = "~" + name;
 
    li.appendChild(img);
@@ -66,8 +67,14 @@ function SetTab(index)
    var element = document.getElementById(pageTabs[index]);
    var lastElement = document.getElementById(pageTabs[pageIndex]);
 
+   var button = document.getElementById(pageTabs[index] + "Img" + "Tab");
+   var lastButton = document.getElementById(pageTabs[pageIndex] + "Img" + "Tab");
+
    lastElement.style.display = "none";
    element.style.display = "block";
+   
+   lastButton.style.filter = "invert(0)";
+   button.style.filter = "invert(100%)";
 
    pageIndex = index;
 }

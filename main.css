@@ -18,7 +18,9 @@ main
 
 h1 
 {
-   margin-left: 4vw;
+   font-size: 5vh;
+   text-align: center;
+   margin: 25px 0 25px 0;
 }
 
 article
@@ -55,7 +57,8 @@ article ul
 
 article p 
 {
-   margin-left: 15px;
+   padding: 25px;
+   border-bottom: solid 3px #101010;
 }
 
 article .head
@@ -66,5 +69,7 @@ article .head
 
 article .icon
 {
-   width: 6vw;
+   margin-left: 15px;
+   width: 4vw;
+   filter: invert(100%)
 }

@@ -24,6 +24,11 @@
    list-style-type: none;
 }
 
+#mainMenu li:hover
+{
+   margin: 4px;
+}
+
 
 #mainMenu img 
 {
