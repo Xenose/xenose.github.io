@@ -5,6 +5,7 @@ var pageTabs =
    [
       'Home',
       'Projects',
+      'About',
       'Contact',
       'Github'
    ]
@@ -14,9 +15,12 @@ var pageTabs =
 
 var tabIcons = 
    [
+      // home
       'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/home.svg',
-
+      // folder
       'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/folder-minus.svg',
+      // me
+      'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/user.svg',
 
       'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/mail.svg',
 
@@ -49,7 +53,8 @@ function GenrateMenu()
 
    for (var i = 0; i < pageTabs.length; i++)
    {
-      ul.appendChild(CreateIcon(pageTabs[i], tabIcons[i], i));
+      var li = CreateIcon(pageTabs[i], tabIcons[i], i);
+      ul.appendChild(li);
    }
 
    // adding the container element to the menu object
@@ -60,6 +65,8 @@ function GenrateMenu()
       var element = document.getElementById(pageTabs[i]);
       element.style.display = "none";
    }
+
+   SetTab(0);
 }
 
 function SetTab(index)

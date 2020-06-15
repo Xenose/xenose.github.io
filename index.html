@@ -15,37 +15,71 @@
 
       <main>
 
+      <!-- The Main Page starts here --!>
          <div id="Home">
             <canvas id="homeCanvas"></canvas>
             <script src="terminal.js"></script>
          </div>
+
+      <!-- The Main Page ends here --!>
          
          <div id="Projects">
 
             <h1>Projects</h1>
-            
+
+            <nav id="ProjectTabs">
+               <ul>
+                  <li><img src='https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/user.svg'/></li>
+                  <li>Team</li>
+                  <li>No Source</li>
+               </ul>
+            </nav>
+
             <article>
                <h2>Astroid Wars</h2>
                
                <div class="head">
-                  <img src="img/test.png">
+                  <img src="old/img/astroid_wars.png">
                   <ul>
                      <li> Platforms ： Linux Windows</li>
                      <li> 年  ： 2019</li>
                      <li> Complier  ： clang</li>
-                     <li> 言語   ：C++</li>
+                     <li> 言語 ：C++</li>
+                     <li> Librery : SFML</li>
+                     <li> Threads : 2</li>
                   </ul>
                </div>
-
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               <p>アストロイドウォーズは、昔のアーケードゲームに似ています。宇宙を漂う小惑星にぶつからないように動きながら撃って破壊し、全滅を目指します。小惑星に当たるごとにhpが下がり、hp０になるとゲームオーバーです。</p>
                <img class="icon" src="https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg">
+            </article>
+         
+            <article>
+               <h2>3D Demo</h2>
+               <div class="head">
+                  <img src="old/img/opengl_3D_demo.png">
+               </div>
+               <p>これはopenglのパフォーマンスデモンストレーションです。データはコンソールを出します。</p>
+               <img class="icon" src="https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg">
+            </article>
+
+            <article>
+               <h2>Test</h2>
+               <img src="img/test.png">
+            </article>
+
+            <article>
+               <h2>Test</h2>
+               <img src="img/test.png">
+            </article>
+
+            <article>
+               <h2>Test</h2>
+               <img src="img/test.png">
             </article>
          
             <article>
                <h2>Test</h2>
                <img src="img/test.png">
-               <img class="icon" src="https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </article>
 
             <article>
@@ -57,25 +91,52 @@
                <h2>Test</h2>
                <img src="img/test.png">
             </article>
+         </div>
+
+         <div id="About">
+            <h1>About</h1>
+            <article>
+               <h2>Johansson Sebastian</h2>
+               <div class="head">
+                  <img src="img/test.png">
+                  <ul>
+                     <li>Country : Sweden</li>
+                     <li>Born : 1995 08 16</li>
+                     <li>Programming Expirence : 10 Years</li>
+                     <li>Prefered Platform : Arch Linux</li>
+                  </ul>
+               </div>
+            </article>
 
             <article>
-               <h2>Test</h2>
-               <img src="img/test.png">
-            </article>
-         
-            <article>
-               <h2>Test</h2>
-               <img src="img/test.png">
-            </article>
+               <h2>Core Skills</h2>
+              
+               <table style="width:100%;">
+                  <tr>
+                     <th>Lang</th>
+                     <th>Expirence</th>
+                  </tr>
 
-            <article>
-               <h2>Test</h2>
-               <img src="img/test.png">
-            </article>
+                  <tr>
+                     <th>Posix C</th>
+                     <th>1 Year</th>
+                  </tr>
 
-            <article>
-               <h2>Test</h2>
-               <img src="img/test.png">
+                  <tr>
+                     <th>C++</th>
+                     <th>4 Years</th>
+                  </tr>
+
+                  <tr>
+                     <th>C#</th>
+                     <th>8 Years</th>
+                  </tr>
+
+                  <tr>
+                     <th>OpenGL</th>
+                     <th>3 Years</th>
+                  </tr>
+               </table>
             </article>
          </div>
 

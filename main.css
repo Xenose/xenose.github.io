@@ -31,8 +31,7 @@ article
 
    margin-left: 5vw;
    margin-right: 5vw;
-   margin-bottom: 1em;
-   border-radius: 0 0 15px 15px;
+   margin-bottom: 10px;
 }
 
 article h2
@@ -53,6 +52,7 @@ article ul
 {
    justify-content: center;
    margin: 3vw 1vw 1vw 1vw;
+   list-style-type: none;
 }
 
 article p 
