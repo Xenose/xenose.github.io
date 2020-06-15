@@ -48,7 +48,7 @@ article h2
 
 article img
 {
-   width: 45vw;
+   max-width: 45vw;
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
 }
