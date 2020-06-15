@@ -42,7 +42,7 @@ article
    article
    {
       background-color: darkblue;
-      flex: 0 0 49.5%;
+      flex: 0 0 100%;
       margin: 0 0 2.5px 0;
    }
 }
