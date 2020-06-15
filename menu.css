@@ -56,13 +56,12 @@
 
 #ProjectTabs
 { 
-   margin: 0 5vh 10px 5vw;
 }
 
 #ProjectTabs ul
 {
-   height: 6vh;
-   max-height: 6vh;
+   height: 3vh;
+   max-height: 3vh;
 
    padding-right: 4vw;
    border-radius: 15px 15px 0 0;

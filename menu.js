@@ -5,7 +5,6 @@ var pageTabs =
    [
       'Home',
       'Projects',
-      'About',
       'Contact',
       'Github'
    ]
@@ -19,8 +18,6 @@ var tabIcons =
       'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/home.svg',
       // folder
       'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/folder-minus.svg',
-      // me
-      'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/user.svg',
 
       'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/mail.svg',
 

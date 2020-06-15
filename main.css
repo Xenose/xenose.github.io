@@ -10,7 +10,7 @@ p
 
 body 
 {
-   margin: 0;
+   width: 100%;
    color: white;
    vertical-align: bottom;
    background-color: #101010;
@@ -18,7 +18,7 @@ body
 
 main
 {
-   margin-left: 7vh;
+   margin-left: 10vw;
 }
 
 h1 
@@ -32,16 +32,18 @@ article
 {
    background-color: darkblue;
    padding: 5px;
+   max-width: 45.32%;
+   margin: 5px 5px 2.5px 0;
 }
 
-@media only screen and (min-width: 600px)
+@media (pointer:none), (pointer:coarse)
 {
    article
    {
       background-color: darkblue;
       padding: 5px;
-      max-width: 45.32%;
-      margin: 5px 5px 10px 0;
+      max-width: 100%;
+      margin: 5px 5px 2.5px 0;
    }
 }
 
@@ -55,14 +57,14 @@ article h2
 
 article img
 {
-   max-width: 55%;
-   max-height: 100%;
+   max-width: 100%;
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
 }
 
 article ul
 {
+   min-width: 40%;
    justify-content: center;
    margin: 3vw 1vw 1vw 1vw;
    list-style-type: none;
@@ -94,6 +96,4 @@ article .icon
    flex-direction:row;
    flex-wrap: wrap;
    width: 100%;
-   margin-left: 5vw;
-   margin-right: 5vw;
 }
