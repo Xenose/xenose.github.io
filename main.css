@@ -31,14 +31,18 @@ h1
 article
 {
    background-color: darkblue;
-
    padding: 5px;
+}
 
-   max-width: 700px;
-
-   margin-left: 5vw;
-   margin-right: 5vw;
-   margin-bottom: 10px;
+@media only screen and (min-width: 600px)
+{
+   article
+   {
+      background-color: darkblue;
+      padding: 5px;
+      max-width: 45.32%;
+      margin: 5px 5px 10px 0;
+   }
 }
 
 article h2
@@ -84,9 +88,12 @@ article .icon
    filter: invert(100%)
 }
 
-.PostWrapper
+.PostWrapper 
 {
    display: flex;
    flex-direction:row;
    flex-wrap: wrap;
+   width: 100%;
+   margin-left: 5vw;
+   margin-right: 5vw;
 }
