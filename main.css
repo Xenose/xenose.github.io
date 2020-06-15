@@ -3,6 +3,11 @@
    margin: 0;
 }
 
+p
+{
+   font-size: 2vh;
+}
+
 body 
 {
    margin: 0;
