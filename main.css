@@ -79,6 +79,7 @@ article ul
    margin: 2vh 0.2vw 0.5vh 1.5vw;
    list-style-type: none;
    font-size: 100%;
+   align-self: center;
 }
 
 article li
@@ -89,6 +90,7 @@ article li
 
 article p 
 {
+   height: 20vh;
    padding: 25px;
    border-bottom: solid 3px #101010;
 }
@@ -97,13 +99,14 @@ article .head
 {
    display: flex;
    border-bottom: solid 3px #101010;
+   height: 40vh;
 }
 
 article .icon
 {
    margin-left: 15px;
    width: 4vw;
-   filter: invert(100%)
+   filter: invert(100%);
 }
 
 .PostWrapper 
