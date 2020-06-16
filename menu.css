@@ -49,10 +49,10 @@
    display: none;
 }
 
-#mainMenu li:hover p
-{
-   display: block;
-}
+//#mainMenu li:hover p
+//{
+//   display: block;
+//}
 
 #ProjectTabs
 { 

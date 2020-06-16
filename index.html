@@ -10,77 +10,111 @@
       <link rel="stylesheet" type="text/css" href="footer.css">
 
       <script src="menu.js"></script>
+      <script src="menuTabs.js"></script>
    </head>
-   <body onload="GenrateMenu();">
-
+   <body onload="GenrateMenu(); HideTabs();">
       <main>
-
-      <!-- The Main Page starts here --!>
          <div id="Home">
             <canvas id="homeCanvas"></canvas>
             <script src="terminal.js"></script>
          </div>
 
-      <!-- The Main Page ends here --!>
-         
          <div id="Projects">
-
             <h1>Projects</h1>
 
             <nav id="ProjectTabs">
                <ul>
-                  <li>Self</li>
-                  <li>Team</li>
-                  <li>Old Projects</li>
+                  <li onclick='SwitchTab("self")'>Self</li>
+                  <li onclick='SwitchTab("team")'>Team</li>
+                  <li>Networking</li>
                   <li>Other</li>
                </ul>
             </nav>
 
-            <div class="PostWrapper">
-               <article>
-                  <h2>Astroid Wars</h2>
-               
-                  <div class="head">
-                     <div><img src="old/img/astroid_wars.png"></div>
-                     <ul>
-                        <li> Platforms ： Linux Windows</li>
-                        <li> 年  ： 2019</li>
-                        <li> Complier  ： clang</li>
-                        <li> 言語 ：C++</li>
-                        <li> Librery : SFML</li>
-                        <li> Threads : 2</li>
-                     </ul>
-                  </div>
-               <p>アストロイドウォーズは、昔のアーケードゲームに似ています。宇宙を漂う小惑星にぶつからないように動きながら撃って破壊し、全滅を目指します。小惑星に当たるごとにhpが下がり、hp０になるとゲームオーバーです。</p>
-                  <img class="icon" src="https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg">
-               </article>
-         
-               <article>
-                  <h2>3D Demo</h2>
-                  <div class="head">
-                     <div><img src="old/img/opengl_3D_demo.png"></div>
-                     <ul>
-                        <li> platforms ： linux windows</li>
-                        <li> 年  ： 2019</li>
-                        <li> complier  ： clang</li>
-                        <li> 言語 ：c</li>
-                        <li> librery : glew glfw3</li>
-                        <li> threads : 2</li>
-                     </ul>
-                  </div>
-            
-               <p>
-         これはopenglのパフォーマンスデモンストレーションです。データはコンソールを出します。</p>
-                  <img class="icon" src="https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg">
-               </article>
+            <div id="self" class="PostWrapper">
+                  <article>
+                     <h2>Astroid Wars</h2>
+                     <div class="head">
+                        <div><img src="old/img/astroid_wars.png"></div>
+                        <ul>
+                           <li> Platforms ： Linux Windows</li>
+                           <li> 年  ： 2019</li>
+                           <li> Complier  ： clang</li>
+                           <li> 言語 ：C++</li>
+                           <li> Librery : SFML</li>
+                           <li> Threads : 2</li>
+                        </ul>
+                     </div>
+                     <p>アストロイドウォーズは、昔のアーケードゲームに似ています。宇宙を漂う小惑星にぶつからないように動きながら撃って破壊し、全滅を目指します。小惑星に当たるごとにhpが下がり、hp０になるとゲームオーバーです。</p>
+                     <img class="icon" src="https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg">
+                  </article>
 
+                  <article>
+                     <h2>3D Demo</h2>
+                     <div class="head">
+                        <div>
+                           <video controls="" preload="none" poster="old/img/opengl_3D_demo.png">
+                              <source src="old/videos/opengl_3D_demo.mp4">
+                           </video>
+                        </div>
+                        
+                        <ul>
+                           <li> platforms ： linux windows</li>
+                           <li> 年  ： 2019</li>
+                           <li> complier  ： clang</li>
+                           <li> 言語 ：c</li>
+                           <li> librery : glew glfw3</li>
+                           <li> threads : 2</li>
+                        </ul>
+                     </div>
+                  <p>これはopenglのパフォーマンスデモンストレーションです。データはコンソールを出します。</p>
+                     <img class="icon" src="https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg">
+                  </article>
+
+                  <article>
+                     <h2>Change Runner 3D</h2>
+                     <div class="head">
+                        <div><img src="img/test.png"></div>
+                        <ul>
+                           <li> Platforms ： Linux Windows</li>
+                           <li> 年  ： 2019</li>
+                           <li> Complier  ： clang</li>
+                           <li> 言語 ：C</li>
+                           <li> Librery : GLEW GLFW3</li>
+                           <li> Threads : 2</li>
+                        </ul>
+                     </div>
+                     <p>Test Test Test</p>
+                  </article>
+
+                  <article>
+                     <h2>Portfolio Site</h2>
+                     <div class="head">
+                        <div><img src="img/test.png"></div>
+                        <ul>
+                           <li> Platforms ： phone pc</li>
+                           <li> 年  ： 2020</li>
+                           <li> 言語 ：HTML CSS Javascript</li>
+                           <li> Librery : GLEW GLFW3</li>
+                           <li> Threads : 2</li>
+                        </ul>
+                     </div>
+                     <p>Test Test Test</p>
+                     <a href="https://github.com/Xenose/xenose.github.io">
+                        <img class="icon" src="https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg"></a>
+                  </article>
+
+            </div>
+
+         
+            <div id="team" class="PostWrapper">
                <article>
-                  <h2>Change Runner 3D</h2>
+                  <h2>Mappy</h2>
                   <div class="head">
                      <div><img src="img/test.png"></div>
                      <ul>
                         <li> Platforms ： Linux Windows</li>
-                        <li> 年  ： 2019</li>
+                        <li> 年  ： 2019~2020</li>
                         <li> Complier  ： clang</li>
                         <li> 言語 ：C</li>
                         <li> Librery : GLEW GLFW3</li>
@@ -89,32 +123,8 @@
                   </div>
                   <p>Test Test Test</p>
                </article>
-
-               <article>
-                  <h2>Test</h2>
-                  <img src="img/test.png">
-               </article>
-
-               <article>
-                  <h2>Test</h2>
-                  <img src="img/test.png">
-               </article>
-         
-               <article>
-                  <h2>Test</h2>
-                  <img src="img/test.png">
-               </article>
-
-               <article>
-                  <h2>Test</h2>
-                  <img src="img/test.png">
-               </article>
-
-               <article>
-                  <h2>Test</h2>
-                  <img src="img/test.png">
-               </article>
             </div>
+         
          </div>
 
          <div id="Contact">
