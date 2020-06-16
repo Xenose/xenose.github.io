@@ -6,7 +6,6 @@ var pageTabs =
       'Home',
       'Projects',
       'Contact',
-      'Github'
    ]
 
 /// using the feather icon pack
@@ -21,7 +20,6 @@ var tabIcons =
 
       'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/mail.svg',
 
-      'https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg'
    ]
 
 function CreateIcon(name, imgSrc, index)

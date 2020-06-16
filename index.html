@@ -15,8 +15,10 @@
    <body onload="GenrateMenu(); HideTabs();">
       <main>
          <div id="Home">
-            <canvas id="homeCanvas"></canvas>
-            <script src="terminal.js"></script>
+            <h1>Portfolio</h1>
+            <article>
+
+            </article>
          </div>
 
          <div id="Projects">
@@ -24,10 +26,10 @@
 
             <nav id="ProjectTabs">
                <ul>
-                  <li onclick='SwitchTab("self")'>Self</li>
-                  <li onclick='SwitchTab("team")'>Team</li>
-                  <li>Networking</li>
-                  <li>Other</li>
+                  <li onclick='SwitchTab("self")'>一人</li>
+                  <li onclick='SwitchTab("team")'>チーム</li>
+                  <li onclick='SwitchTab("networking")'>ネットワーキング</li>
+                  <li>他の</li>
                </ul>
             </nav>
 
@@ -35,14 +37,20 @@
                   <article>
                      <h2>Astroid Wars</h2>
                      <div class="head">
-                        <div><img src="old/img/astroid_wars.png"></div>
+                        <div>
+                           <video controls="" preload="none" poster="old/img/astroid_wars.png">
+                              <source src="old/videos/astroid_wars.mp4">
+                           </video>
+                        </div>
                         <ul>
-                           <li> Platforms ： Linux Windows</li>
-                           <li> 年  ： 2019</li>
-                           <li> Complier  ： clang</li>
+                           <li> ジャンル : Sci-Fi</li>
+                           <li> プラットフォーム: Linux Windows</li>
+                           <li> 年: 2019</li>
+                           <li> 制作期間 : 1週間</li>
+                           <li> コンパイラ: gcc</li>
                            <li> 言語 ：C++</li>
                            <li> Librery : SFML</li>
-                           <li> Threads : 2</li>
+                           <li> スレッド: 2</li>
                         </ul>
                      </div>
                      <p>アストロイドウォーズは、昔のアーケードゲームに似ています。宇宙を漂う小惑星にぶつからないように動きながら撃って破壊し、全滅を目指します。小惑星に当たるごとにhpが下がり、hp０になるとゲームオーバーです。</p>
@@ -59,7 +67,7 @@
                         </div>
                         
                         <ul>
-                           <li> platforms ： linux windows</li>
+                           <li> プラットフォーム： linux windows</li>
                            <li> 年  ： 2019</li>
                            <li> complier  ： clang</li>
                            <li> 言語 ：c</li>
@@ -76,7 +84,7 @@
                      <div class="head">
                         <div><img src="img/test.png"></div>
                         <ul>
-                           <li> Platforms ： Linux Windows</li>
+                           <li> プラットフォーム： Linux Windows</li>
                            <li> 年  ： 2019</li>
                            <li> Complier  ： clang</li>
                            <li> 言語 ：C</li>
@@ -104,6 +112,26 @@
                         <img class="icon" src="https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg"></a>
                   </article>
 
+                  <article>
+                     <h2>FoundryCraft 2015</h2>
+                     <div class="head">
+                        <div>
+                           <video controls="" preload="none" poster="old/img/opengl_3D_demo.png">
+                              <source src="old/videos/opengl_3D_demo.mp4">
+                           </video>
+                        </div>
+                        
+                        <ul>
+                           <li> platforms ： MineCraft Mod</li>
+                           <li> 年  ： 2015</li>
+                           <li> 言語 ：Java</li>
+                           <li> ゲーム: MineCraft</li>
+                        </ul>
+                     </div>
+                  <p>これはopenglのパフォーマンスデモンストレーションです。データはコンソールを出します。</p>
+                     <img class="icon" src="https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg">
+                  </article>
+
             </div>
 
          
@@ -114,7 +142,7 @@
                      <div><img src="img/test.png"></div>
                      <ul>
                         <li> Platforms ： Linux Windows</li>
-                        <li> 年  ： 2019~2020</li>
+                        <li> 年  ： 2018~2019</li>
                         <li> Complier  ： clang</li>
                         <li> 言語 ：C</li>
                         <li> Librery : GLEW GLFW3</li>
@@ -122,17 +150,44 @@
                      </ul>
                   </div>
                   <p>Test Test Test</p>
+
+                  <a href="https://github.com/teamunitytca/mappy">
+                        <img class="icon" src="https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg">
+                  </a>
                </article>
+
+               <article>
+                  <h2>Zombie Masacre</h2>
+                  <div class="head">
+                     <div>
+                        <video controls="" preload="none" poster="old/img/zombie_masacre.png">
+                           <source src="old/videos/zombie_masacre.mp4">
+                        </video>
+                     </div>
+                     <ul>
+                        <li> Platforms ： Linux Windows</li>
+                        <li> 年  ： 2016</li>
+                        <li> 言語 ：c#</li>
+                        <li> Engine : Unity 3D</li>
+                        <li> チーム人数: ~11</li> 
+                     </ul>
+                  </div>
+                  <p>Test Test Test</p>
+
+                  <a href="https://github.com/teamunitytca/mappy">
+                        <img class="icon" src="https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg">
+                  </a>
+               </article>
+            </div>
+            
+            <div id="networking" class="PostWrapper">
+               <h2>test</h2>
             </div>
          
          </div>
 
          <div id="Contact">
             <h1>Contact</h1>
-         </div>
-
-         <div id="Github">
-            <h1>Github</h1>
          </div>
 
       </main>
