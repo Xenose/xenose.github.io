@@ -1,0 +1,46 @@
+
+.ProfileHome
+{
+   margin-left: 5%;
+   width: 90%;
+}
+
+.ProfileHomeWrapper
+{
+}
+
+.ProfileHome h2
+{
+   font-size: 3.2vh;
+}
+
+.ProfileHome h3
+{
+   margin-top: 15px;
+   margin-left: 2%;
+   font-size: 2.9vh;
+}
+
+.ProfileHomeWrapper table
+{
+   width: 100%;
+   font-size: 2.0vh;
+   padding: 5px;
+}
+
+.ProfileHomeWrapper th
+{
+   padding-left: 5px;
+   text-align: left;
+}
+
+.ProfileHomeWrapper tr:nth-child(even) 
+{
+  background-color: #303030;
+}
+
+.ProfileHomeWrapper tr:nth-child(odd) 
+{
+  background-color: #202020;
+}
+
