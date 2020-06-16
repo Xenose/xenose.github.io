@@ -61,6 +61,7 @@ article img
    max-width: 100%;
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
+   align-self: center;
 }
 
 article video
@@ -68,6 +69,7 @@ article video
    max-width: 100%;
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
+   align-self: center;
 }
 
 article ul
