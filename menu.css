@@ -77,12 +77,12 @@
 {
    display: relative;
    width: 100%;
-   font-size: 2vh;
+   font-size: 2.2vh;
 }
 
 #ProjectTabs li:hover
 {
-   font-size: 150%;
+   font-size: 70%;
    border-right: solid 5px black;
    border-left: solid 5px black;
 }
