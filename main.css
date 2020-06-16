@@ -90,7 +90,6 @@ article li
 
 article p 
 {
-   height: 20vh;
    padding: 25px;
    border-bottom: solid 3px #101010;
 }
@@ -99,7 +98,6 @@ article .head
 {
    display: flex;
    border-bottom: solid 3px #101010;
-   height: 40vh;
 }
 
 article .icon
