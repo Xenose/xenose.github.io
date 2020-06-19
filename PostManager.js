@@ -29,8 +29,11 @@ function GenratePosts()
                      {
                         var tab = document.getElementById(data.type);
                         var article = document.createElement("article");
+                        var head = document.createElement("div");
                         var h2 = document.createElement("h2");
                         var text = document.createElement("p");
+
+                        head.id = "head";
 
                         h2.innerHTML = data.name;
                         article.appendChild(h2);
@@ -41,7 +44,7 @@ function GenratePosts()
                            {
                               var img = document.createElement("img");
                               img.src = data.img;
-                              article.appendChild(img);
+                              head.appendChild(img);
                            }
 
                         }
@@ -49,7 +52,7 @@ function GenratePosts()
                         {
                            var img = document.createElement("img");
                            img.src = data.img;
-                           article.appendChild(img);
+                           head.appendChild(img);
                         }
 
                         if (0 < data.info.length)
@@ -63,9 +66,10 @@ function GenratePosts()
                               ul.appendChild(li);
                            }
 
-                           article.appendChild(ul);
+                           head.appendChild(ul);
                         }
 
+                        article.appendChild(head);
                         text.innerHTML = data.text;
 
                         article.appendChild(text);
