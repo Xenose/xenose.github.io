@@ -4,6 +4,7 @@
 
 function GenratePosts()
 {
+   console.log("creating posts...");
 
    fetch("posts/posts.json")
       .then(function(resp)
