@@ -29,3 +29,14 @@ fetch("posts/posts.json")
             });
       }
    });
+
+fetch("posts/_AstroidWars.json")
+            .then(function(resp2)
+            {
+               console.log(resp2);
+               return resp2.json();
+            })
+            .then(function(data2)
+            {
+               console.log(data2);
+            });
