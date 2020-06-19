@@ -30,8 +30,10 @@ function GenratePosts()
                         var tab = document.getElementById(data.type);
                         var article = document.createElement("article");
                         var h2 = document.createElement("h2");
+                        var text = document.createElement("p");
 
                         h2.innerHTML = data.name;
+                        article.appendChild(h2);
                         
                         if (null != data.video)
                         {
@@ -50,7 +52,9 @@ function GenratePosts()
                            article.appendChild(img);
                         }
 
-                        article.appendChild(h2);
+                        text.innerHTML = data.text;
+
+                        tab.appendChild(text);
                         tab.appendChild(article);
                      });
             }
