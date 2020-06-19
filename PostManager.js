@@ -15,7 +15,8 @@ fetch("posts/posts.json")
       for (i = 0; i < length; i++)
       {
          var url = "posts/" + data.postList[i];
-         
+         console.log(url);
+
          fetch(url)
             .then(function(resp2)
             {
