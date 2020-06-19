@@ -97,7 +97,6 @@ article p
 article .head
 {
    display: flex;
-   border-bottom: solid 3px #101010;
 }
 
 article .icon
