@@ -12,16 +12,13 @@ fetch("./posts/posts.json")
       var length = data.postList.length;
       var i;
 
-      console.log(length);
-      console.log(data);
-
       for (i = 0; i < length; i++)
       {
-         console.log("./posts/" + data.postList[i]);
          fetch("./posts/" + data.postList[i])
-            .then(function(resp)
+            .then(function(resp2)
             {
-               return resp.json();
+               console.log(resp2);
+               return resp2.json();
             })
             .then(function(data2)
             {
