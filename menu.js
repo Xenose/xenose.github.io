@@ -40,7 +40,6 @@ function CreateIcon(name, imgSrc, index)
 
 function GenrateMenu()
 {
-   console.log("test");
    // getting the menu tag from the document 
    var tag = document.getElementById("mainMenu");
    // adding a container for all the icons in the manu

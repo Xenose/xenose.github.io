@@ -26,10 +26,16 @@
 
       <script src="menu.js"></script>
       <script src="menuTabs.js"></script>
+      <script src="PostManager.js"></script>
+
    </head>
    <body onload="GenrateMenu(); HideTabs();">
       <p style="position: fixed; right: 15px; top: 5px; color: red;">開発中</p>
       <main>
+   <script>
+      fetch('posts/posts.json').then(response => response.text()).then((data) => 
+         {console.log(data)})
+   </script>
          <div id="Home">
                         
             <h1>Portfolio</h1>
