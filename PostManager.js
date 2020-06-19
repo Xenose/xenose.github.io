@@ -27,8 +27,7 @@ function GenratePosts()
                      })
                   .then(function(data)
                      {
-                        var tab = document.createElement(data.type);
-                        
+                        var tab = document.getElementById(data.type);
                         var article = document.createElement("article");
                         var h2 = document.createElement("h2");
 
