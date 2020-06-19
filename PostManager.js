@@ -12,6 +12,8 @@ fetch("./posts/posts.json")
       var lenght = data.postList.lenght;
       var i;
 
+      console.log(data);
+
       for (i = 0; i < lenght; i++)
       {
          console.log("./posts/" + data.postList[i]);
