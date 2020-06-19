@@ -33,7 +33,7 @@ function GenratePosts()
                         var h2 = document.createElement("h2");
                         var text = document.createElement("p");
 
-                        head.id = "head";
+                        head.class = "head";
 
                         h2.innerHTML = data.name;
                         article.appendChild(h2);
