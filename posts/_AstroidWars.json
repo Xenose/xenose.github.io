@@ -1,7 +1,9 @@
 {
    "type":"self",
-   "name":"Astroid Wars",
    "img":null,
    "video":null,
-   "text":"test test test test"
+   
+   "name":"Astroid Wars",
+   "year":"",
+   "text":"アストロイドウォーズは、昔のアーケードゲームに似ています。宇宙を漂う小惑星にぶつからないように動きながら撃って破壊し、全滅を目指します。小惑星に当たるごとにhpが下がり、hp０になるとゲームオーバーです。"
 }

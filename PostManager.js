@@ -4,7 +4,6 @@
 
 function GenratePosts()
 {
-   var Projects = document.createElement("Projects");
 
    fetch("posts/posts.json")
       .then(function(resp)
@@ -27,9 +26,15 @@ function GenratePosts()
                      })
                   .then(function(data)
                      {
-                        console.log(data2);
+                        var tab = document.createElement(data.type);
+                        
+                        var article = document.createElement("article");
+                        var h2 = document.createElement("h2");
 
+                        h2.innerHTML = data.name;
 
+                        article.appendChild(h2);
+                        tab.appendChild(article);
                      });
             }
          });
