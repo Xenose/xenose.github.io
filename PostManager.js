@@ -2,7 +2,7 @@
 
 //var Projects = document.createElement("Projects");
 
-fetch("./posts/posts.json")
+fetch("posts/posts.json")
    .then(function(resp)
    {
       return resp.json();
@@ -14,7 +14,7 @@ fetch("./posts/posts.json")
 
       for (i = 0; i < length; i++)
       {
-         var url = "./posts/" + data.postList[i];
+         var url = "posts/" + data.postList[i];
          
          fetch(url)
             .then(function(resp2)
