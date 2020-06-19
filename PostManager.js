@@ -2,7 +2,7 @@
 
 //var Projects = document.createElement("Projects");
 
-fetch("posts/_AstroidWars.json")
+fetch("posts/astroidWars.json")
             .then(function(resp2)
             {
                console.log(resp2);
