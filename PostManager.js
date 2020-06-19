@@ -60,7 +60,7 @@ function GenratePosts()
                            {
                               var li = document.createElement("li");
                               li.innerHTML = data.info[i++] + ": " + data.info[i];
-                              ul.appendChild(ul);
+                              ul.appendChild(li);
                            }
 
                            article.appendChild(ul);
