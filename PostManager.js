@@ -9,10 +9,10 @@ fetch("./posts/posts.json")
    })
    .then(function(data)
    {
-      var lenght = data.postList.lenght;
+      var lenght = data.postList.length;
       var i;
 
-      console.log(lenght);
+      console.log(length);
       console.log(data);
 
       for (i = 0; i < lenght; i++)
