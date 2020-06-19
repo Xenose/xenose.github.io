@@ -1,7 +1,13 @@
-
+"use strict";
 
 var Projects = document.createElement("Projects");
 
-var test = fetch('posts/posts.json'); 
-console.log(test);
-fetch('posts/')
+fetch('posts/posts.json')
+   .then(function(resp)
+   {
+      return resp.json();
+   })
+   .then(function data)
+   {
+      console.log(data);
+   });
