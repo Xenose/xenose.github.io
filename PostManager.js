@@ -54,7 +54,7 @@ function GenratePosts()
 
                         text.innerHTML = data.text;
 
-                        tab.appendChild(text);
+                        article.appendChild(text);
                         tab.appendChild(article);
                      });
             }
