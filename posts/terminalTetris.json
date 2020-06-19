@@ -1,0 +1,18 @@
+{
+   "type":"self",
+   "img":"img/terminal_tetris.png",
+   "video":null,
+   
+   "name":"Astroid Wars",
+   "info":
+   [
+      "ジャンル", "Sci-Fi",
+      "プラットフォーム", "Windows",
+      "年", "2018",
+      "制作期間", "1",
+      "言語", "vc++",
+      "Librery", "conio.h"
+   ],
+
+   "text":""
+}
