@@ -33,6 +33,13 @@ function GenratePosts()
 
                         h2.innerHTML = data.name;
 
+                        if (null != data.img)
+                        {
+                           var img = document.createElement("img");
+                           img.src = data.img;
+                           article.appendChild(img);
+                        }
+
                         article.appendChild(h2);
                         tab.appendChild(article);
                      });
