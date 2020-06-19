@@ -14,6 +14,7 @@ fetch("./posts/posts.json")
 
       for (i = 0; i < length; i++)
       {
+         console.log("./posts/" + data.postList[i]);
          fetch("./posts/" + data.postList[i])
             .then(function(resp2)
             {
