@@ -1,7 +1,7 @@
 {
    "type":"self",
    "name":"Astroid Wars",
-   "img":null,
+   "img":"./img/test.png",
    "video":null,
    "text":"test test test test"
 }

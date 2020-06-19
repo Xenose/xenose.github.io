@@ -32,8 +32,18 @@ function GenratePosts()
                         var h2 = document.createElement("h2");
 
                         h2.innerHTML = data.name;
+                        
+                        if (null != data.video)
+                        {
+                           if (null != data.img)
+                           {
+                              var img = document.createElement("img");
+                              img.src = data.img;
+                              article.appendChild(img);
+                           }
 
-                        if (null != data.img)
+                        }
+                        else if (null != data.img)
                         {
                            var img = document.createElement("img");
                            img.src = data.img;
