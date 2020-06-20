@@ -2,11 +2,11 @@
 
 
 
-function GenratePosts()
+function GenratePosts(jsonFile)
 {
    console.log("creating posts...");
 
-   fetch("posts/posts.json")
+   fetch(jsonFile)
       .then(function(resp)
          {
             return resp.json();
