@@ -1,17 +1,16 @@
 {
    "type":"self",
-   "img":"./img/change_runner_3d.png",
-   "video":"old/videos/change_runner_3D.mp4",
+   "img":"./img/change_runner2d.png",
+   "video":null,
    
    "name":"Change Runner 3D",
    "info":
    [
       "ジャンル", "Casual",
-      "プラットフォーム", "Linux Windows",
-      "年", "2019",
+      "プラットフォーム", "Windows",
+      "年", "2019~2020",
       "制作期間", "1週間",
-      "コンパイラ", "gcc",
-      "言語", "C++",
+      "言語", "VC++",
       "Librery", "GLEW GLFW GLM GLtext(Vallient Github)",
       "Planner", "1"
    ],
