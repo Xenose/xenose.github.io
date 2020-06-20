@@ -17,7 +17,12 @@
 
    "icons":
    [
-      "https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg", 
-      "https://github.com/Xenose/TetrisGame"
-   ]
+      "https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg",
+      "https://github.com/Xenose/FoundryCraft",
+
+      "https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg",
+      "https://github.com/Xenose/FoundryCraft-2",
+
+      "https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/youtube.svg",
+      "https://www.youtube.com/watch?v=sCj4pmMuxm0"
 }
