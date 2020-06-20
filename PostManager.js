@@ -79,7 +79,7 @@ function GenratePosts()
                            iconLink.target = "_blank";
 
                            var icon = document.createElement("img");
-                           icon.classList.add("icons");
+                           icon.classList.add("icon");
 
                            icon.src = data.icons[i++];
                            iconLink.href = data.icons[i];
