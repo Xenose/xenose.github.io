@@ -1,7 +1,7 @@
 {
    "type":"self",
    "img":"img/terminal_tetris.png",
-   "video":null,
+   "video":"videos/terminal_tetris.mp4",
    
    "name":"Astroid Wars",
    "info":
