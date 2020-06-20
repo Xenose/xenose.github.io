@@ -71,8 +71,20 @@ function GenratePosts()
 
                         article.appendChild(head);
                         text.innerHTML = data.text;
-
                         article.appendChild(text);
+
+                        for (var i = 0; i < data.icons.length; i++)
+                        {
+                           var iconLink = document.createElement("a");
+                           var icon = document.createElement("img");
+
+                           icon.src = data.icons[i++];
+                           iconLink.href = data.icons[i];
+
+                           iconLink.appendChild(icon);
+                           article.appendChild(iconLink);
+                        }
+
                         tab.appendChild(article);
                      });
             }
