@@ -1,0 +1,23 @@
+{
+   "type":"team",
+   "img":"old/img/astroid_wars.png",
+   "video":"old/videos/astroid_wars.mp4",
+   
+   "name":"Zombie Masacre",
+   "info":
+   [
+      "ジャンル", "Action",
+      "プラットフォーム", "Linux Windows",
+      "年", "2016",
+      "制作期間", "1週間",
+      "Engine", "Unity",
+      "言語", "C#",
+      "Team Size", "15"
+   ],
+
+   "text":"Sebastian Johansson, Patrik Grip, Jackob Svedlund, Alex Mattila,Danile Ahlgren, Markus Östmo, Marcus Wiberg, Jonas Karlsson, Pontus Pursche, Ludvig Åslund, Tobias Carlsson, Alexander Johansson,Filip Ljunglöf, Rasmus Sehlin, Magnus Sahlin<br><br>これは高校時代にチームで作成しました。このゲームはツインスティックシューターを使用します。生き残るために襲いかかるゾンビと戦うゲームです",
+
+   "icons":
+   [
+   ]
+}
