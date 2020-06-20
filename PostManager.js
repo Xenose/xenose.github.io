@@ -37,6 +37,8 @@ function GenratePosts()
 
                         h2.innerHTML = data.name;
                         article.appendChild(h2);
+
+                        console.log(data.video);
                         
                         if (null != data.video)
                         {
