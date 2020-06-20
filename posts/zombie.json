@@ -1,7 +1,7 @@
 {
    "type":"team",
-   "img":"old/img/astroid_wars.png",
-   "video":"old/videos/astroid_wars.mp4",
+   "img":"./img/zombie.png",
+   "video":"old/videos/zombie_masacre.mp4",
    
    "name":"Zombie Masacre",
    "info":
