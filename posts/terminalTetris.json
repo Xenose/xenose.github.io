@@ -14,5 +14,10 @@
       "Librery", "conio.h"
    ],
 
-   "text":""
+   "text":"",
+
+   "icons":
+   [
+      "./img/test.png", "github.com"
+   ]
 }
