@@ -40,12 +40,19 @@ function GenratePosts()
                         
                         if (null != data.video)
                         {
+                           var video = document.createElement("video");
+                           var source = document.createElement("source");
+
+                           video.preload = "none";
+                           source.src = data.video;
+                           
                            if (null != data.img)
                            {
-                              var img = document.createElement("img");
-                              img.src = data.img;
-                              head.appendChild(img);
+                              video.poster = data.img;
                            }
+
+                           video.appendChild(source);
+                           head.appendChild(video);
 
                         }
                         else if (null != data.img)
