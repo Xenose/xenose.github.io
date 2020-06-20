@@ -1,6 +1,7 @@
 { "postList":
    [
       "astroidWars.json",
+      "changeRunner3D.json",
       "terminalTetris.json"
    ]
 }
