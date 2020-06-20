@@ -1,0 +1,22 @@
+{
+   "type":"self",
+   "img":"img/portfolio_site.png",
+   "video":null,
+   
+   "name":"Portfolio Site",
+   "info":
+   [
+      "プラットフォーム", "PC Phone",
+      "年", "2020",
+      "制作期間", "3日",
+      "言語", "HTML CSS JavaScript Json"
+   ],
+
+   "text":"",
+
+   "icons":
+   [
+      "https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg", 
+      "https://github.com/Xenose/xenose.github.io"
+   ]
+}
