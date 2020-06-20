@@ -40,10 +40,10 @@ function GenratePosts()
 
                         if (null != data.video)
                         {
-                           console.log(data.video);
                            var video = document.createElement("video");
                            var source = document.createElement("source");
 
+                           video.controls = "";
                            video.preload = "none";
                            source.src = data.video;
                            
