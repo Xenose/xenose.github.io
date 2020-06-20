@@ -2,6 +2,8 @@
    [
       "astroidWars.json",
       "changeRunner3D.json",
-      "terminalTetris.json"
+      "terminalTetris.json",
+      "portfolioSite.json",
+      "oldPortfolioSite.json"
    ]
 }
