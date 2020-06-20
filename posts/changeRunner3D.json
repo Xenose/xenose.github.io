@@ -9,9 +9,8 @@
       "ジャンル", "Casual",
       "プラットフォーム", "Linux Windows",
       "年", "2019",
-      "制作期間", "1週間",
-      "コンパイラ", "gcc",
-      "言語", "C++",
+      "制作期間", "2ヶ月",
+      "言語", "VC++",
       "Librery", "GLEW GLFW GLM GLtext(Vallient Github)",
       "Planner", "1"
    ],
