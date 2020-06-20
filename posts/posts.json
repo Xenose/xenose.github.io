@@ -1,9 +1,9 @@
 { "postList":
    [
+      "astroidWars.json",
       "changeRunner3D.json",
       "terminalTetris.json",
       "portfolioSite.json",
-      "oldPortfolioSite.json",
-      "astroidWars.json"
+      "oldPortfolioSite.json"
    ]
 }
