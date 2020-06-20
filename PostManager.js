@@ -2,11 +2,11 @@
 
 
 
-function GenratePosts()
+function GenratePosts(jsonFile)
 {
    console.log("creating posts...");
 
-   fetch("posts/posts.json")
+   fetch(jsonFile)
       .then(function(resp)
          {
             return resp.json();
@@ -37,15 +37,23 @@ function GenratePosts()
 
                         h2.innerHTML = data.name;
                         article.appendChild(h2);
-                        
+
                         if (null != data.video)
                         {
+                           var video = document.createElement("video");
+                           var source = document.createElement("source");
+
+                           video.controls = true;
+                           video.preload = "none";
+                           source.src = data.video;
+                           
                            if (null != data.img)
                            {
-                              var img = document.createElement("img");
-                              img.src = data.img;
-                              head.appendChild(img);
+                              video.poster = data.img;
                            }
+
+                           video.appendChild(source);
+                           head.appendChild(video);
 
                         }
                         else if (null != data.img)
@@ -71,8 +79,23 @@ function GenratePosts()
 
                         article.appendChild(head);
                         text.innerHTML = data.text;
-
                         article.appendChild(text);
+
+                        for (var i = 0; i < data.icons.length; i++)
+                        {
+                           var iconLink = document.createElement("a");
+                           iconLink.target = "_blank";
+
+                           var icon = document.createElement("img");
+                           icon.classList.add("icon");
+
+                           icon.src = data.icons[i++];
+                           iconLink.href = data.icons[i];
+
+                           iconLink.appendChild(icon);
+                           article.appendChild(iconLink);
+                        }
+
                         tab.appendChild(article);
                      });
             }

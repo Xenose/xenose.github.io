@@ -1,0 +1,24 @@
+{
+   "type":"self",
+   "img":"img/terminal_tetris.png",
+   "video":"videos/terminal_tetris.mp4",
+   
+   "name":"Astroid Wars",
+   "info":
+   [
+      "ジャンル", "Sci-Fi",
+      "プラットフォーム", "Windows",
+      "年", "2018",
+      "制作期間", "1",
+      "言語", "vc++",
+      "Librery", "conio.h"
+   ],
+
+   "text":"",
+
+   "icons":
+   [
+      "https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg", 
+      "https://github.com/Xenose/TetrisGame"
+   ]
+}

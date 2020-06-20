@@ -91,14 +91,12 @@ article li
 
 article p 
 {
-   padding: 25px;
-   border-bottom: solid 3px #101010;
+   padding: 15px;
 }
 
 article .head
 {
    display: flex;
-   border-bottom: solid 3px #101010;
 }
 
 article .icon

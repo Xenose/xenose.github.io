@@ -1,0 +1,25 @@
+{
+   "type":"self",
+   "img":"img/old_portfolio.png",
+   "video":null,
+   
+   "name":"Old Portfolio Site",
+   "info":
+   [
+      "プラットフォーム", "PC Phone",
+      "年", "2020",
+      "制作期間", "2週間",
+      "言語", "HTML CSS JavaScript"
+   ],
+
+   "text":"",
+
+   "icons":
+   [
+      "https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/github.svg", 
+      "https://github.com/Xenose/xenose.github.io",
+
+      "https://raw.githubusercontent.com/feathericons/feather/8263ca93c4b338dcfafed62321c27a88368ba7cc/icons/home.svg", 
+      "https://xenose.github.io/old/Index.html"
+   ]
+}
