@@ -1,6 +1,7 @@
 { "postList":
    [
       "astroidWars.json",
+      "mappy.json",
       "changeRunner3D.json",
       "changeRunner2D.json",
       "opengl3DDemo.json",
