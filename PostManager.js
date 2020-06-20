@@ -76,7 +76,10 @@ function GenratePosts()
                         for (var i = 0; i < data.icons.length; i++)
                         {
                            var iconLink = document.createElement("a");
+                           iconLink.target = "_blank";
+
                            var icon = document.createElement("img");
+                           icon.classList.add("icons");
 
                            icon.src = data.icons[i++];
                            iconLink.href = data.icons[i];
