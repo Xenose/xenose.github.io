@@ -38,10 +38,9 @@ function GenratePosts()
                         h2.innerHTML = data.name;
                         article.appendChild(h2);
 
-                        console.log(data.video);
-                        
                         if (null != data.video)
                         {
+                           console.log(data.video);
                            var video = document.createElement("video");
                            var source = document.createElement("source");
 
