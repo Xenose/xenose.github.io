@@ -43,7 +43,7 @@ function GenratePosts()
                            var video = document.createElement("video");
                            var source = document.createElement("source");
 
-                           video.controls = "";
+                           video.controls = true;
                            video.preload = "none";
                            source.src = data.video;
                            
