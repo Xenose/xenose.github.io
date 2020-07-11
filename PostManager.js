@@ -13,7 +13,7 @@ function GetDatabases(folder, jsonFile)
       .then(function(resp)
          {
             return resp.json();
-         }
+         })
       .then(function(data)
          {
             var length = data.list.length;
