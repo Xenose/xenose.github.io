@@ -37,6 +37,7 @@ article
    background-color: darkblue;
    flex: 0 0 49.2%;
    margin-top: 10px;
+   max-width: 49.2%;
 }
 
 @media (pointer:none), (pointer:coarse)
