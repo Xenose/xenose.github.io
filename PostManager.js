@@ -1,6 +1,37 @@
 "use strict";
 
+function GenrateSkills(data)
+{
+   console.log("Genrating Skills...");
+}
 
+function GetDatabases(folder, jsonFile)
+{
+   console.log("creating skill lists...");
+
+   fetch(jsonFile)
+      .then(function(resp)
+         {
+            return resp.json();
+         }
+      .then(function(data)
+         {
+            var length = data.list.length;
+            var i;
+
+            for (i = 0; i < length; i++)
+            {
+               var url = folder + "/" + data.list[i];
+               
+               fetch(url)
+                  .then(function(resp)
+                     {
+                        return resp.json();
+                     });
+                  //.then();
+            }
+         }
+}
 
 function GenratePosts(jsonFile)
 {
