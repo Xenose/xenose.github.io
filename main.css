@@ -60,8 +60,6 @@ article h2
 article img
 {
    max-width: 100%;
-   display: flex;
-   flex: 0 1 auto;
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
    align-self: center;
@@ -70,8 +68,6 @@ article img
 article video
 {
    max-width: 100%;
-   display: flex;
-   flex: 0 1 auto;
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
    align-self: center;
