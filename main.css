@@ -98,6 +98,8 @@ article p
 article .head
 {
    max-width: 100%;
+   display: flex;
+   flex: 0 0 auto;
    flex-direction:row;
 }
 
