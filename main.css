@@ -103,7 +103,7 @@ article .head
 article .icon
 {
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    margin-left: 15px;
    width: 4vw;
    filter: invert(100%);
