@@ -61,8 +61,8 @@ article h2
 article img
 {
    display: flex;
-   flex: 0 0 auto;
-   max-width: 50%;
+   flex: 1 1 auto;
+   width: 50%;
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
    align-self: center;
@@ -71,8 +71,8 @@ article img
 article video
 {
    display: flex;
-   flex: 0 0 auto;
-   max-width: 50%;
+   flex: 1 1 auto;
+   width: 50%;
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
    align-self: center;
