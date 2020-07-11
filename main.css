@@ -99,6 +99,7 @@ article p
 
 article .head
 {
+   max-width: 100%;
    display: flex;
    flex-direction:row;
 }
