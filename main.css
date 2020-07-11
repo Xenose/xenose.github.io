@@ -34,6 +34,7 @@ h1
 
 article
 {
+   flex-direction: row;
    background-color: darkblue;
    flex: 0 0 49.2%;
    margin-top: 10px;
@@ -43,6 +44,7 @@ article
 {
    article
    {
+      flex-direction: row;
       background-color: darkblue;
       flex: 0 0 100%;
       margin-top: 10px;
@@ -100,12 +102,12 @@ article p
 article .head
 {
    display: flex;
+   flex-direction: column;
 }
 
 article .icon
 {
    display: flex;
-   flex-direction: row;
    margin-left: 15px;
    width: 4vw;
    filter: invert(100%);
