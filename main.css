@@ -61,6 +61,7 @@ article h2
 article img
 {
    display: flex;
+   flex: 1 1 auto;
    max-width: 100%;
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
@@ -70,6 +71,7 @@ article img
 article video
 {
    display: flex;
+   flex: 1 1 auto;
    max-width: 100%;
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
