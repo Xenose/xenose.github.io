@@ -30,7 +30,7 @@ function GetDatabases(folder, jsonFile)
                      });
                   //.then();
             }
-         }
+         });
 }
 
 function GenratePosts(jsonFile)
