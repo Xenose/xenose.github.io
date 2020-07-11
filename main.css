@@ -59,6 +59,7 @@ article h2
 
 article img
 {
+   width: 50%;
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
    align-self: center;
@@ -66,6 +67,7 @@ article img
 
 article video
 {
+   width: 50%;
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
    align-self: center;
