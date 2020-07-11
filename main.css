@@ -1,5 +1,6 @@
 *
 {
+   box-sizing: border-box;
    margin: 0;
    padding: 0;
    font-family: 'Noto Serif JP', serif;
@@ -50,7 +51,6 @@ article
 
 article h2
 {
-   box-sizing: border-box;
    margin: 0;
    padding-left: 2%;
    width: 100%;
@@ -59,7 +59,6 @@ article h2
 
 article img
 {
-   box-sizing: border-box;
    max-width: 100%;
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
