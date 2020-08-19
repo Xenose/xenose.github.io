@@ -8,7 +8,7 @@
    position: fixed;
    top: 0;
 
-   background-color: darkblue;
+   background-color: #222222;
 }
 
 #mainMenu ul
@@ -48,11 +48,6 @@
    position: absolute;
    display: none;
 }
-
-//#mainMenu li:hover p
-//{
-//   display: block;
-//}
 
 #ProjectTabs
 { 
