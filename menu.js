@@ -48,6 +48,10 @@ function GenrateMenu()
    for (var i = 0; i < pageTabs.length; i++)
    {
       var li = CreateIcon(pageTabs[i], tabIcons[i], i);
+      var p = document.createElement("li");
+      p.innerHTML = pageTabs[i];
+
+      li.appendChild(p);
       ul.appendChild(li);
    }
 

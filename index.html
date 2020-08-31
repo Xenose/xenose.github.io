@@ -29,13 +29,16 @@
       <script src="PostManager.js"></script>
 
    </head>
+
    <body onload='GenrateMenu(); HideTabs(); GenratePosts("posts/posts.json");'>
-      <p style="position: fixed; right: 15px; top: 5px; color: red;">開発中</p>
+      
+      
       <main>
-   <script>
-      fetch('posts/posts.json').then(response => response.text()).then((data) => 
-         {console.log(data)})
-   </script>
+         <script>
+            fetch('posts/posts.json').then(response => response.text()).then((data) => 
+               {console.log(data)})
+         </script>
+
          <div id="Home">
             <h1>Portfolio</h1>
             
@@ -257,6 +260,7 @@
       </footer>
       
       <nav id="mainMenu"></nav>
+      <p style="position: fixed; right: 15px; bottom: 5px; color: red;">開発中</p>
 
    </body>
 </html>

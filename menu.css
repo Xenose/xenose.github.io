@@ -1,38 +1,51 @@
+*
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   min-height: 0;
+   font-family: 'Noto Serif JP', serif;
+}
+
 
 #mainMenu
 {
-   padding: 0;
-
-   width: 7vh;
-   height: 100%;
+   width: 100%;
+   height: 5vh;
    position: fixed;
    top: 0;
-
-   background-color: #222222;
+   background-color: #323232;
 }
 
 #mainMenu ul
 {
-   margin: 0;
-   padding: 0;
+   width: 100%;
+   height: 100%;
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
 }
 
 #mainMenu li
 {
-   margin: 0;
-   padding: 0;
+   padding: 5px;
    list-style-type: none;
+   text-align: center;
 }
 
 #mainMenu li:hover
 {
-   margin: 4px;
+   filter: invert(100%);
 }
 
+#mainMenu li p
+{
+}
 
 #mainMenu img 
 {
-   width: 100%;
 }
 
 #mainMenu p
@@ -44,13 +57,14 @@
    color: white;
    border: solid 2px black;
    border-radius: 15px;
-   background-color: darkblue;
+   background-color: #323232;
    position: absolute;
    display: none;
 }
 
 #ProjectTabs
-{ 
+{
+   
 }
 
 #ProjectTabs ul
@@ -60,7 +74,7 @@
 
    padding: 0 2% 0 2%;
    border-radius: 25px 25px 0 0;
-   background-color: darkblue;
+   background-color: #323232;
    list-style-type: none;
    
    display: flex;
