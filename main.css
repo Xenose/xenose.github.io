@@ -64,6 +64,7 @@ article img
    margin: 15px 5px 5px 5px;
    border-radius: 10px;
    align-self: center;
+   max-height: 500px;
 }
 
 article video
