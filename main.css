@@ -17,7 +17,7 @@ body
    width: 100%;
    color: white;
    vertical-align: bottom;
-   background-color: #101010;
+   background-color: #000000;
 }
 
 main
@@ -30,13 +30,13 @@ h1
 {
    font-size: 5vh;
    text-align: center;
-   margin: 25px 0 25px 0;
+   margin: 55px 0 15px 0;
 }
 
 article
 {
-   background-color: #323232;
-   flex: 0 0 24.6%;
+   background-color: #0084ff;
+   flex: 0 0 100%;
    margin-top: 10px;
 }
 
@@ -44,9 +44,7 @@ article
 {
    article
    {
-      background-color: #323232;
       flex: 0 0 100%;
-      margin-top: 10px;
    }
 }
 
