@@ -28,8 +28,9 @@ function CreateIcon(name, imgSrc, index)
    var img = document.createElement("img");
    var p = document.createElement("p");
 
+   li.setAttribute("onclick", "SetTab(" + index + ")");
+
    img.src = imgSrc;
-   img.setAttribute("onclick", "SetTab(" + index + ")");
    img.id = name + "Img" + "Tab";
    p.innerHTML = "~" + name;
 

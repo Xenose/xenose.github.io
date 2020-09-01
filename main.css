@@ -35,7 +35,7 @@ h1
 
 article
 {
-   background-color: #0084ff;
+   background-color: #0061bb;
    flex: 0 0 100%;
    margin-top: 10px;
 }
@@ -110,7 +110,6 @@ article .icon
 {
    display: flex;
    flex-direction: row;
-   margin-left: 15px;
    width: 4vw;
    filter: invert(100%);
 }

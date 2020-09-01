@@ -11,17 +11,14 @@
 #mainMenu
 {
    width: 100%;
-   height: 5vh;
+   height: 6vh;
    position: fixed;
    top: 0;
-   background-color: #0084ff;;
+   background-color: #0061bb;;
 }
 
 #mainMenu ul
 {
-   width: 100%;
-   height: 100%;
-
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -30,7 +27,7 @@
 
 #mainMenu li
 {
-   padding: 5px;
+   padding: 0 5px 0 5px;
    list-style-type: none;
    text-align: center;
 }
@@ -51,7 +48,6 @@
 #mainMenu p
 {
    margin: 0;
-   padding: 15px;
    left: 130%;
    bottom: 5px;
    color: white;
