@@ -19,6 +19,7 @@
 
 #mainMenu ul
 {
+   height: 6vh;
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -27,6 +28,7 @@
 
 #mainMenu li
 {
+   height: 6vh;
    padding: 0 5px 0 5px;
    list-style-type: none;
    text-align: center;
