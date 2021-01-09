@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include<cstdio>
 
 int main(int arc, char** arv)
 {
-   printf("hello world!\n");
+   printf("hello world");
    return 0;
 }
