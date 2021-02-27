@@ -1,0 +1,25 @@
+
+body {
+   background-color: black;
+   color: white;
+}
+
+main {
+   margin: 35px 10% 0 10%;
+}
+
+a {
+   text-decoration: none;
+}
+
+article {
+   padding-left: 5%;
+}
+
+video {
+   width: 50%;
+}
+
+#LANG {
+}
+
