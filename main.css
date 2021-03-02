@@ -31,7 +31,11 @@ video {
       font-size: 2vh;
    }
 
+   a {
+      font-size: 3vh;
+   }
+
    video {
-      width: 45vw;
+      height: 60vw;
    }
 }
