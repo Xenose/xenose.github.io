@@ -28,11 +28,11 @@ video {
 
 @media (hover: none) {
    * {
-      font-size: 2vh;
+      font-size: 2vw;
    }
 
    a {
-      font-size: 3vh;
+      font-size: 3vw;
    }
 
    video {
