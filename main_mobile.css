@@ -1,0 +1,32 @@
+
+* {
+   font-size: 10vh;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: black;
+   color: white;
+}
+
+main {
+   margin: 35px 10% 0 10%;
+}
+
+a {
+   text-decoration: none;
+   color: green;
+}
+
+article {
+   padding: 1% 0 5% 5%;
+}
+
+video {
+   height: 45vh;
+}
+
+#LANG {
+}
+
