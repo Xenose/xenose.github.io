@@ -1,6 +1,8 @@
 
 @media (hover: none) {
-   font-size: 5vh;
+   * {
+      font-size: 5vh;
+   }
 }
 
 body {
