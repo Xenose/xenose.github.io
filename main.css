@@ -1,10 +1,4 @@
 
-@media (hover: none) {
-   * {
-      font-size: 2vh;
-   }
-}
-
 body {
    margin: 0;
    padding: 0;
@@ -32,3 +26,12 @@ video {
 #LANG {
 }
 
+@media (hover: none) {
+   * {
+      font-size: 2vh;
+   }
+
+   video {
+      width: 45vw;
+   }
+}
