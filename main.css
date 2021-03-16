@@ -6,6 +6,12 @@ body {
    color: white;
 }
 
+footer {
+   width: 100%;
+   text-align: center;
+   margin-bottom: 0px;
+}
+
 main {
    margin: 35px 10% 0 10%;
 }
