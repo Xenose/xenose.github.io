@@ -27,6 +27,7 @@ article {
 
 video {
    height: 45vw;
+   max-height: 45vh;
 }
 
 #LANG {
