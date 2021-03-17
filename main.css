@@ -40,10 +40,10 @@ table {
 
 @media (hover: none) {
    * {
-      font-size: 20vw;
+      font-size: 10vw;
    }
 
    a {
-      font-size: 30vw;
+      font-size: 15vw;
    }
 }
