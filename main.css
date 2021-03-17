@@ -35,11 +35,11 @@ video {
 
 @media (hover: none) {
    * {
-      font-size: 2vw;
+      font-size: 20%;
    }
 
    a {
-      font-size: 3vw;
+      font-size: 10%;
    }
 
    video {
