@@ -34,13 +34,9 @@ table {
    width: 100%; 
 }
 
-
-#LANG {
-}
-
 @media (hover: none) {
    * {
-      font-size: 5vw;
+      font-size: 3vw;
    }
 
    a {
