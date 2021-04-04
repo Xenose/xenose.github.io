@@ -30,6 +30,11 @@ video {
    max-height: 45vh;
 }
 
+img {
+   height: 40vw;
+   max-height: 45vh;
+}
+
 table {
    width: 100%; 
 }
