@@ -25,6 +25,10 @@ article {
    padding: 1% 0 5% 5%;
 }
 
+p {
+   max-width: 45%;
+}
+
 video {
    height: 40vw;
    max-height: 45vh;
