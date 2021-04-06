@@ -17,6 +17,7 @@ main {
 }
 
 a {
+   font-size: 0.9vw;
    text-decoration: none;
    color: green;
 }
