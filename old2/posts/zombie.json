@@ -1,7 +1,7 @@
 {
    "type":"team",
    "img":"./img/zombie.png",
-   "video":"old/videos/zombie_masacre.mp4",
+   "video":"../old/videos/zombie_masacre.mp4",
    
    "name":"Zombie Masacre",
    "info":

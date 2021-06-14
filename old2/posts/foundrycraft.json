@@ -1,7 +1,7 @@
 {
    "type":"self",
    "img":"img/test.png",
-   "video":"old/videos/foundry_craft.mp4",
+   "video":"../old/videos/foundry_craft.mp4",
    
    "name":"FondryCraft 2015 and 2018",
    "info":
