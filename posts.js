@@ -2,12 +2,12 @@
 function InsertPosts() {
    const element = document.getElementById("posts");
 
-   fetch("https://xenose.github.io/posts.js").then((jd) => {
+   fetch("https://xenose.github.io/posts.js").then((raw) => {
+      var jsonData = JSON.parse(raw);
 
-      for (j in jd.json()) {
-         element.insertAdjacentHTML('beforeend', "<div><h2>" + j.title + "</h2></div>");
-      }
-
+      jsonData.posts.forEach(function (post) {
+         element.insertAdjacentHTML('beforeend', "<div><h2>" + post.title + "</h2></div>");
+      });
    });
 
 

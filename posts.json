@@ -1,7 +1,9 @@
 {
-   "hello" : {
-      "title" : "Hello",
-      "date"  : "2024-02-29",
-      "text"  : "Hello world!"
-   }
+   "posts" : [
+      {
+         "title" : "Hello",
+         "date"  : "2024-02-29",
+         "text"  : "Hello world!"
+      }
+   ]
 }
