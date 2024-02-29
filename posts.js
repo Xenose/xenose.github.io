@@ -4,8 +4,8 @@ function InsertPosts() {
 
    fetch("https://xenose.github.io/posts.js").then((jd) => {
 
-      for (v in jd) {
-         element.innerHtml += "<div><h2>" + v.title + "</h2></div>";
+      for (j in jd.json()) {
+         element.innerHtml += "<div><h2>" + j.title + "</h2></div>";
       }
 
    });
