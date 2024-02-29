@@ -3,9 +3,11 @@ function InsertPosts() {
    const element = document.getElementById("posts");
 
    fetch("https://xenose.github.io/posts.json").then((raw) => {
-      var jsonData = raw.json()
+      var jsonData = raw.json();
 
       element.insertAdjacentHTML('beforeend', "<div><h2> Test </h2></div>");
+
+      console.log(jsonData);
 
       for (let i in jsonData.posts) {
          console.log(jsonData.posts[i])
