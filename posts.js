@@ -2,7 +2,8 @@
 function InsertPosts() {
    const element = document.getElementById("posts");
 
-   fetch("./__posts.json" ,{ headers : {  'Content-Type': 'application/json', 'Accept': 'application/json' }}).then((jd) => {
+   fetch("https://github.com/Xenose/xenose.github.io/blob/master/__posts.json" ,
+      { headers : {  'Content-Type': 'application/json', 'Accept': 'application/json' }}).then((jd) => {
       console.log(jd.json());
    });
 
