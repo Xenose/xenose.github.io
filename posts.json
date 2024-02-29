@@ -1,5 +1,7 @@
 {
-   "files" : [
-      "2024-02-28-test.json"
-   ]
+   "hello" : {
+      "title" : "Hello",
+      "date"  : "2024-02-29",
+      "text"  : "Hello world!"
+   }
 }
