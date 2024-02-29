@@ -9,10 +9,15 @@ function InsertPosts() {
 
       console.log(jsonData);
 
-      for (let i in jsonData.posts) {
+      for (let i = 0; i < jsonData.posts.length; i++) {
          console.log(jsonData.posts[i])
          element.insertAdjacentHTML('beforeend', "<div><h2>" + jsonData.posts[i].title + "</h2></div>");
       }
+
+      /*for (let i in jsonData.posts) {
+         console.log(jsonData.posts[i])
+         element.insertAdjacentHTML('beforeend', "<div><h2>" + jsonData.posts[i].title + "</h2></div>");
+      }*/
    });
 
 
