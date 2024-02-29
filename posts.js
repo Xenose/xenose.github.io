@@ -2,7 +2,7 @@
 function InsertPosts() {
    const element = document.getElementById("posts");
 
-   fetch("https://xenose.github.io/posts.js").then((raw) => {
+   fetch("https://xenose.github.io/posts.json").then((raw) => {
       var jsonData = JSON.parse(raw);
 
       jsonData.posts.forEach(function (post) {
